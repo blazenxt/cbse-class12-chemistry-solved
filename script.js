@@ -278,7 +278,7 @@ const DATASET = {
             number: 19,
             marks: 2,
             question: "A first-order reaction has a rate constant of $1.15 \\times 10^{-3}\\text{ s}^{-1}$. How long will $5.0\\text{ g}$ of this reactant take to reduce to $3.0\\text{ g}$?",
-            solution: "<strong>Solution:</strong><br>The integrated rate equation for a first-order reaction is:<br>$$t = \\frac{2.303}{k} \\log_{10} \\left(\\frac{[A]_0}{[A]}\\right)$$<br>Given values:<br><ul><li>$k = 1.15 \\times 10^{-3}\\text{ s}^{-1}$</li><li>Initial mass $[A]_0 = 5.0\\text{ g}$</li><li>Final mass $[A] = 3.0\\text{ g}$</li></ul><br>Substitute values:<br>$$t = \\frac{2.303}{1.15 \\times 10^{-3}} \\log_{10} \\left(\\frac{5.0}{3.0}\\right)$$<br>$$t = \\frac{2.303}{1.15 \\times 10^{-3}} \\log_{10}(1.6667)$$<br>Using $\\log_{10}(1.6667) \\approx 0.2218$:<br>$$t = \\frac{2.303 \\times 0.2218}{1.15 \\times 10^{-3}} = \\frac{0.5109}{1.15 \\times 10^{-3}} \\approx 444.3\\text{ seconds}$$<br><br><strong>Answer:</strong> It takes <strong>$444.3\\text{ seconds}$</strong> (or $\\approx 7.4\\text{ minutes}$)."
+            solution: "<strong>Solution:</strong><br>The integrated rate equation for a first-order reaction is:<br>$$t = \\frac{2.303}{k} \\log_{10} \\left(\\frac{[A]_0}{[A]}\\right)$$<br>Given values:<br><ul><li>$k = 1.15 \\times 10^{-3}\\text{ s}^{-1}$</li><li>Initial mass $[A]_0 = 5.0\\text{ g}$</li><li>Final mass $[A] = 3.0\\text{ g}$</li></ul><br>Substitute values:<br>$$t = \\frac{2.303}{k} \\log_{10} \\left(\\frac{5.0}{3.0}\\right)$$<br>$$t = \\frac{2.303}{1.15 \\times 10^{-3}} \\log_{10}(1.6667)$$<br>Using $\\log_{10}(1.6667) \\approx 0.2218$:<br>$$t = \\frac{2.303 \\times 0.2218}{1.15 \\times 10^{-3}} = \\frac{0.5109}{1.15 \\times 10^{-3}} \\approx 444.3\\text{ seconds}$$<br><br><strong>Answer:</strong> It takes <strong>$444.3\\text{ seconds}$</strong> (or $\\approx 7.4\\text{ minutes}$)."
         },
         {
             id: "q20",
@@ -338,14 +338,14 @@ const DATASET = {
             number: 26,
             marks: 3,
             question: "The rate constants of a reaction are $2.0 \\times 10^{-2}\\text{ s}^{-1}$ at $300\\text{ K}$ and $8.0 \\times 10^{-2}\\text{ s}^{-1}$ at $320\\text{ K}$. Calculate the activation energy ($E_a$) of the reaction. [Given: $R = 8.314\\text{ J K}^{-1}\text{ mol}^{-1}$, $\\log 4 = 0.6021$]",
-            solution: "<strong>Solution:</strong><br>Using Arrhenius rate equation:<br>$$\\log_{10} \\left(\\frac{k_2}{k_1}\\right) = \\frac{E_a}{2.303 \\cdot R} \\left[ \\frac{T_2 - T_1}{T_1 \\cdot T_2} \\right]$$<br>Substitute values ($k_2/k_1 = 4$, $T_1 = 300\\text{ K}$, $T_2 = 320\\text{ K}$):<br>$$0.6021 = \\frac{E_a}{2.303 \\times 8.314} \\left[ \\frac{320 - 300}{300 \\times 320} \\right]$$<br>$$0.6021 = \\frac{E_a}{19.147} \\left[ \\frac{20}{96000} \\right]$$<br>$$E_a = \\frac{0.6021 \\times 19.147 \\times 96000}{20} \\approx 55336.8\\text{ J mol}^{-1} \\approx 55.34\\text{ kJ mol}^{-1}$$<br><br><strong>Answer:</strong> The activation energy ($E_a$) of the reaction is <strong>$55.34\\text{ kJ mol}^{-1}$</strong>."
+            solution: "<strong>Solution:</strong><br>Using Arrhenius rate equation:<br>$$\\log_{10} \\left(\\frac{k_2}{k_1}\right) = \\frac{E_a}{2.303 \\cdot R} \\left[ \\frac{T_2 - T_1}{T_1 \\cdot T_2} \\right]$$<br>Substitute values ($k_2/k_1 = 4$, $T_1 = 300\\text{ K}$, $T_2 = 320\\text{ K}$):<br>$$0.6021 = \\frac{E_a}{2.303 \\times 8.314} \\left[ \\frac{320 - 300}{300 \\times 320} \\right]$$<br>$$0.6021 = \\frac{E_a}{19.147} \\left[ \\frac{20}{96000} \\right]$$<br>$$E_a = \\frac{0.6021 \\times 19.147 \\times 96000}{20} \\approx 55336.8\\text{ J mol}^{-1} \\approx 55.34\\text{ kJ mol}^{-1}$$<br><br><strong>Answer:</strong> The activation energy ($E_a$) of the reaction is <strong>$55.34\\text{ kJ mol}^{-1}$</strong>."
         },
         {
             id: "q27",
             number: 27,
             marks: 3,
             question: "Differentiate between $\\text{S}_N1$ and $\text{S}_N2$ mechanisms of nucleophilic substitution reactions based on:<br>(a) Kinetics,<br>(b) Stereochemical outcome,<br>(c) Reactivity order of alkyl halides.",
-            solution: "<div class='overflow-x-auto'><table class='w-full border-collapse border border-slate-200 dark:border-navy-700 text-sm'><thead class='bg-slate-100 dark:bg-navy-800'><tr><th class='border border-slate-200 dark:border-navy-700 p-2 text-left font-semibold'>Feature</th><th class='border border-slate-200 dark:border-navy-700 p-2 text-left font-semibold'>$\\text{S}_N1$ Mechanism</th><th class='border border-slate-200 dark:border-navy-700 p-2 text-left font-semibold'>$\\text{S}_N2$ Mechanism</th></tr></thead><tbody><tr><td class='border border-slate-200 dark:border-navy-700 p-2 font-medium'>(a) Kinetics</td><td class='border border-slate-200 dark:border-navy-700 p-2'>First-order kinetics. $\\text{Rate} = k[\\text{R-X}]$. Depends only on alkyl halide concentration.</td><td class='border border-slate-200 dark:border-navy-700 p-2'>Second-order kinetics. $\\text{Rate} = k[\\text{R-X}][\\text{Nu}^-]$. Depends on both concentrations.</td></tr><tr><td class='border border-slate-200 dark:border-navy-700 p-2 font-medium'>(b) Stereochemical Outcome</td><td class='border border-slate-200 dark:border-navy-700 p-2'><strong>Racemisation:</strong> Forms a 50:50 $d$ and $l$ mixture because nucleophile can attack the planar carbocation from either side.</td><td class='border border-slate-200 dark:border-navy-700 p-2'><strong>Walden Inversion:</strong> 100% inversion of configuration because nucleophile attacks strictly from the backside.</td></tr><tr><td class='border border-slate-200 dark:border-navy-700 p-2 font-medium'>(c) Reactivity Order</td><td class='border border-slate-200 dark:border-navy-700 p-2'>$$3^\\circ > 2^\\circ > 1^\\circ > \\text{CH}_3\\text{X}$$ because rate depends on intermediate carbocation stability.</td><td class='border border-slate-200 dark:border-navy-700 p-2'>$$\\text{CH}_3\\text{X} > 1^\\circ > 2^\\circ > 3^\\circ$$ because rate depends on minimizing steric hindrance during backside attack.</td></tr></tbody></table></div>"
+            solution: "<div class='overflow-x-auto'><table class='w-full border-collapse border border-slate-200 dark:border-navy-700 text-sm'><thead class='bg-slate-100 dark:bg-navy-850'><tr><th class='border border-slate-200 dark:border-navy-700 p-2 text-left font-semibold'>Feature</th><th class='border border-slate-200 dark:border-navy-700 p-2 text-left font-semibold'>$\\text{S}_N1$ Mechanism</th><th class='border border-slate-200 dark:border-navy-700 p-2 text-left font-semibold'>$\\text{S}_N2$ Mechanism</th></tr></thead><tbody><tr><td class='border border-slate-200 dark:border-navy-700 p-2 font-medium'>(a) Kinetics</td><td class='border border-slate-200 dark:border-navy-700 p-2'>First-order kinetics. $\\text{Rate} = k[\\text{R-X}]$. Depends only on alkyl halide concentration.</td><td class='border border-slate-200 dark:border-navy-700 p-2'>Second-order kinetics. $\\text{Rate} = k[\\text{R-X}][\\text{Nu}^-]$. Depends on both concentrations.</td></tr><tr><td class='border border-slate-200 dark:border-navy-700 p-2 font-medium'>(b) Stereochemical Outcome</td><td class='border border-slate-200 dark:border-navy-700 p-2'><strong>Racemisation:</strong> Forms a 50:50 $d$ and $l$ mixture because nucleophile can attack the planar carbocation from either side.</td><td class='border border-slate-200 dark:border-navy-700 p-2'><strong>Walden Inversion:</strong> 100% inversion of configuration because nucleophile attacks strictly from the backside.</td></tr><tr><td class='border border-slate-200 dark:border-navy-700 p-2 font-medium'>(c) Reactivity Order</td><td class='border border-slate-200 dark:border-navy-700 p-2'>$$3^\\circ > 2^\\circ > 1^\\circ > \\text{CH}_3\\text{X}$$ because rate depends on intermediate carbocation stability.</td><td class='border border-slate-200 dark:border-navy-700 p-2'>$$\\text{CH}_3\\text{X} > 1^\\circ > 2^\\circ > 3^\\circ$$ because rate depends on minimizing steric hindrance during backside attack.</td></tr></tbody></table></div>"
         },
         {
             id: "q28",
@@ -388,13 +388,13 @@ const DATASET = {
             isOrQuestion: true,
             optionA: {
                 title: "Osmotic Pressure",
-                question: "<strong>(a) Define Osmotic Pressure. Why is osmotic pressure measurement preferred over other colligative properties for determining the molar mass of macromolecules like proteins and polymers? (Give 3 reasons)</strong> [3]<br><br><strong>(b) Calculate the osmotic pressure of a solution prepared by dissolving $25\\text{ mg}$ of $\\text{K}_2\\text{SO}_4$ in $2\\text{ L}$ of water at $25\\ ^\circ\\text{C}$, assuming it to be completely dissociated. ($R = 0.0821\\text{ L atm K}^{-1}\text{ mol}^{-1}$, Molar mass of $\\text{K}_2\\text{SO}_4 = 174\\text{ g mol}^{-1}$ )</strong> [2]",
+                question: "<strong>(a) Define Osmotic Pressure. Why is osmotic pressure measurement preferred over other colligative properties for determining the molar mass of macromolecules like proteins and polymers? (Give 3 reasons)</strong> [3]<br><br><strong>(b) Calculate the osmotic pressure of a solution prepared by dissolving $25\\text{ mg}$ of $\text{K}_2\text{SO}_4$ in $2\\text{ L}$ of water at $25\\ ^\circ\\text{C}$, assuming it to be completely dissociated. ($R = 0.0821\\text{ L atm K}^{-1}\text{ mol}^{-1}$, Molar mass of $\\text{K}_2\\text{SO}_4 = 174\\text{ g mol}^{-1}$ )</strong> [2]",
                 solution: "<strong>(a) Osmotic Pressure & Macromolecules:</strong><br><ul><li><strong>Definition:</strong> The excess hydrostatic pressure that must be applied to the solution side to completely prevent the osmotic flow of solvent through a semipermeable membrane.</li><li><strong>Preferences for Macromolecules:</strong><br>1. <strong>Easily Measurable Magnitude:</strong> Colligative properties like boiling point elevation are too small to measure precisely for macromolecules due to low concentrations. Osmotic pressure provides large, easily measurable values at room temperature.<br>2. <strong>Stability:</strong> Proteins denature and decompose at high temperatures, making boiling point measurements impossible. Osmotic pressure can be measured at room temperature ($25\\ ^\\circ\\text{C}$).<br>3. <strong>Molarity usage:</strong> Uses molarity, which is far simpler to prepare in labs than molality.</li></ul><br><strong>(b) Osmotic Pressure Calculation:</strong><br>Identify variables:<br><ul><li>Mass of solute ($w_2$) = $25\\text{ mg} = 0.025\\text{ g}$</li><li>Volume ($V$) = $2\\text{ L}$, Molar mass ($M_2$) = $174\\text{ g mol}^{-1}$</li><li>$T = 25\\ ^\\circ\\text{C} = 298\\text{ K}$</li><li>$R = 0.0821\\text{ L atm K}^{-1}\\text{ mol}^{-1}$</li><li>$\\text{K}_2\\text{SO}_4$ dissociates into 3 ions ($2\\text{K}^+ + \\text{SO}_4^{2-}$). Since it is completely dissociated, Van't Hoff factor $i = 3$.</li></ul><br>$$\\Pi = i \\cdot C \\cdot R \\cdot T = i \\cdot \\frac{w_2}{M_2 \\cdot V} \\cdot R \\cdot T$$<br>$$\\Pi = 3 \\times \\frac{0.025}{174 \\times 2} \\times 0.0821 \\times 298$$<br>$$\\Pi = \\frac{1.835}{348} \\approx 5.27 \\times 10^{-3}\\text{ atm}$$<br><br><strong>Answer:</strong> The osmotic pressure is <strong>$5.27 \\times 10^{-3}\\text{ atm}$</strong>."
             },
             optionB: {
                 title: "OR: Solutions",
-                question: "<strong>(a) What are ideal and non-ideal solutions? Draw neat vapor pressure-composition diagrams for non-ideal solutions showing positive and negative deviations from Raoult's law.</strong> [3]<br><br><strong>(b) Calculate the mass percentage of aspirin ($\\text{C}_9\\text{H}_8\\text{O}_4$) in acetonitrile ($\\text{CH}_3\\text{CN}$) when $6.5\\text{ g}$ of $\text{C}_9\text{H}_8\text{O}_4$ is dissolved in $450\\text{ g}$ of $\text{CH}_3\text{CN}$.</strong> [2]",
-                solution: "<strong>(a) Ideal and Non-Ideal Solutions:</strong><br><ul><li><strong>Ideal Solution:</strong> Obells Raoult's law strictly at all concentrations and temperatures. Molecular attractions between A-B are identical to pure component attractions (A-A and B-B). $\\Delta_{\\text{mix}}H = 0, \\Delta_{\\text{mix}}V = 0$.</li><li><strong>Non-Ideal Solution:</strong> Does not obey Raoult's law. In <strong>Positive deviation</strong>, A-B attractions are weaker than pure components ($\\Delta_{\\text{mix}}H > 0, \\Delta_{\\text{mix}}V > 0$). In <strong>Negative deviation</strong>, A-B attractions are stronger ($\\Delta_{\\text{mix}}H < 0, \\Delta_{\\text{mix}}V < 0$).</li></ul><br><strong>Vapor Pressure-Composition Diagrams:</strong><br><div class='grid grid-cols-1 md:grid-cols-2 gap-4 my-4'><div class='border border-slate-200 dark:border-navy-700 p-2 rounded-lg bg-white dark:bg-navy-900'><p class='text-center text-xs font-semibold mb-1'>Positive Deviation</p><img src='images/positive_deviation.png' class='w-full' alt='Positive Deviation Diagram'></div><div class='border border-slate-200 dark:border-navy-700 p-2 rounded-lg bg-white dark:bg-navy-900'><p class='text-center text-xs font-semibold mb-1'>Negative Deviation</p><img src='images/negative_deviation.png' class='w-full' alt='Negative Deviation Diagram'></div></div><br><strong>(b) Mass Percentage of Aspirin:</strong><br><ul><li>Mass of solute (aspirin) = $6.5\\text{ g}$</li><li>Mass of solvent (acetonitrile) = $450\\text{ g}$</li><li>Total mass of solution = $6.5 + 450 = 456.5\\text{ g}$</li></ul><br>$$\\text{Mass Percentage} = \\frac{6.5}{456.5} \\times 100 \\approx 1.424\\%$$<br><br><strong>Answer:</strong> The mass percentage of aspirin is <strong>$1.42\\%$</strong>."
+                question: "<strong>(a) What are ideal and non-ideal solutions? Draw neat vapor pressure-composition diagrams for non-ideal solutions showing positive and negative deviations from Raoult's law.</strong> [3]<br><br><strong>(b) Calculate the mass percentage of aspirin ($\\text{C}_9\\text{H}_8\\text{O}_4$) in acetonitrile ($\\text{CH}_3\\text{CN}$) when $6.5\\text{ g}$ of $\text{C}_9\text{H}_8\text{O}_4$ is dissolved in $450\\text{ g}$ of $\text{CH}_3\\text{CN}$.</strong> [2]",
+                solution: "<strong>(a) Ideal and Non-Ideal Solutions:</strong><br><ul><li><strong>Ideal Solution:</strong> Obells Raoult's law strictly at all concentrations and temperatures. Molecular attractions between A-B are identical to pure component attractions (A-A and B-B). $\\Delta_{\\text{mix}}H = 0, \\Delta_{\\text{mix}}V = 0$.</li><li><strong>Non-Ideal Solution:</strong> Does not obey Raoult's law. In <strong>Positive deviation</strong>, A-B attractions are weaker than pure components ($\\Delta_{\\text{mix}}H > 0, \\Delta_{\\text{mix}}V > 0$). In <strong>Negative deviation</strong>, A-B attractions are stronger ($\\Delta_{\\text{mix}}H < 0, \\Delta_{\\text{mix}}V < 0$).</li></ul><br><strong>Vapor Pressure-Composition Diagrams:</strong><br><div class='grid grid-cols-1 md:grid-cols-2 gap-4 my-4'><div class='border border-slate-200 dark:border-slate-800 p-2 rounded-xl bg-white dark:bg-slate-900'><p class='text-center text-xs font-bold mb-1'>Positive Deviation</p><img src='images/positive_deviation.png' class='w-full' alt='Positive Deviation Diagram'></div><div class='border border-slate-200 dark:border-slate-800 p-2 rounded-xl bg-white dark:bg-slate-900'><p class='text-center text-xs font-bold mb-1'>Negative Deviation</p><img src='images/negative_deviation.png' class='w-full' alt='Negative Deviation Diagram'></div></div><br><strong>(b) Mass Percentage of Aspirin:</strong><br><ul><li>Mass of solute (aspirin) = $6.5\\text{ g}$</li><li>Mass of solvent (acetonitrile) = $450\\text{ g}$</li><li>Total mass of solution = $6.5 + 450 = 456.5\\text{ g}$</li></ul><br>$$\\text{Mass Percentage} = \\frac{6.5}{456.5} \\times 100 \\approx 1.424\\%$$<br><br><strong>Answer:</strong> The mass percentage of aspirin is <strong>$1.42\\%$</strong>."
             }
         },
         {
@@ -426,7 +426,7 @@ const DATASET = {
             optionB: {
                 title: "OR: Collision Theory",
                 question: "<strong>(a) What is collision theory of chemical reactions? Mention two main reasons why all molecular collisions do not lead to product formation.</strong> [3]<br><br><strong>(b) The rate of a reaction quadruples when temperature changes from $293\text{ K}$ to $313\text{ K}$. Calculate the activation energy ($E_a$) of the reaction assuming that it does not change with temperature.</strong> [2]",
-                solution: "<strong>(a) Collision Theory:</strong><br><ul><li><strong>Core Concept:</strong> Reactions occur when reactant molecules collide. The rate depends on the collision frequency ($Z_{AB}$) and the fraction of effective collisions.</li><li><strong>Reasons for ineffective collisions:</strong><br>1. <strong>Energy Barrier:</strong> Molecules must collide with kinetic energy $\\ge$ threshold/activation energy ($E_a$). If kinetic energy is too low, they bounce apart without reacting.<br>2. <strong>Orientation Barrier:</strong> Reactants must collide with a specific spatial orientation to allow the correct atoms to form new bonds. Improper orientation results in ineffective collisions.</li></ul><br><strong>(b) Activation Energy Calculation ($k_2/k_1 = 4$, $T_1 = 293\\text{ K}$, $T_2 = 313\\text{ K}$):</strong><br>Using the Arrhenius relation:<br>$$\\log_{10}\\left(\\frac{k_2}{k_1}\\right) = \\frac{E_a}{2.303 \\cdot R} \\left[ \\frac{T_2 - T_1}{T_1 \\cdot T_2} \\right]$$<br>$$0.6021 = \\frac{E_a}{2.303 \\times 8.314} \\left[ \\frac{313 - 293}{293 \\times 313} \\right]$$<br>$$0.6021 = \\frac{E_a}{19.147} \\left[ \\frac{20}{91709} \\right]$$<br>$$E_a = \\frac{0.6021 \\times 19.147 \\times 91709}{20} \\approx 52863\\text{ J mol}^{-1} \\approx 52.86\\text{ kJ mol}^{-1}$$<br><br><strong>Answer:</strong> The activation energy is <strong>$52.86\\text{ kJ mol}^{-1}$</strong>."
+                solution: "<strong>(a) Collision Theory:</strong><br><ul><li><strong>Core Concept:</strong> Reactions occur when reactant molecules collide. The rate depends on the collision frequency ($Z_{AB}$) and the fraction of effective collisions.</li><li><strong>Reasons for ineffective collisions:</strong><br>1. <strong>Energy Barrier:</strong> Molecules must collide with kinetic energy $\\ge$ threshold/activation energy ($E_a$). If kinetic energy is too low, they bounce apart without reacting.<br>2. <strong>Orientation Barrier:</strong> Reactants must collide with a specific spatial orientation to allow the correct atoms to form new bonds. Improper orientation results in ineffective collisions.</li></ul><br><strong>(b) Activation Energy Calculation ($k_2/k_1 = 4$, $T_1 = 293\\text{ K}$, $T_2 = 313\\text{ K}$):</strong><br>Using the Arrhenius relation:<br>$$\\log_{10}\\left(\\frac{k_2}{k_1}\\right) = \\frac{E_a}{2.303 \\cdot R} \\left[ \\frac{T_2 - T_1}{T_1 \\cdot T_2} \\right]$$<br>$$0.6021 = \\frac{E_a}{2.303 \times 8.314} \\left[ \\frac{313 - 293}{293 \times 313} \\right]$$<br>$$0.6021 = \\frac{E_a}{19.147} \\left[ \\frac{20}{91709} \\right]$$<br>$$E_a = \\frac{0.6021 \\times 19.147 \\times 91709}{20} \\approx 52863\\text{ J mol}^{-1} \\approx 52.86\\text{ kJ mol}^{-1}$$<br><br><strong>Answer:</strong> The activation energy is <strong>$52.86\\text{ kJ mol}^{-1}$</strong>."
             }
         },
         {
@@ -441,15 +441,38 @@ const DATASET = {
             number: 35,
             marks: 5,
             question: "<strong>(a) Explain the mechanism of $\\text{S}_N2$ substitution reaction of methyl bromide with aqueous NaOH solution with energy profile/transition state representation.</strong> [3]<br><br><strong>(b) Write the environmental effects and uses of:<br>(i) Freon-12 (Dichlorodifluoromethane)<br>(ii) DDT (p,p'-Dichlorodiphenyltrichloroethane)</strong> [2]",
-            solution: "<strong>(a) $\\text{S}_N2$ Mechanism of Methyl Bromide + aq. NaOH:</strong><br>The reaction occurs in a single concerted step. The nucleophile ($\\text{OH}^-$) attacks the electrophilic carbon of methyl bromide from the backside, opposite to the leaving group ($\\text{Br}^-$). This forms an unstable pentacoordinated transition state where carbon is $sp^2$ hybridized and partially bonded to both groups. Departure of $\\text{Br}^-$ leads to a product with inverted configuration (Walden Inversion):<br>$$\\text{OH}^- + \\text{CH}_3\\text{-Br} \\rightarrow \\left[ \\text{HO}\\cdots\\text{C(H}_3)\\cdots\\text{Br} \\right]^{\\ddagger} \\rightarrow \\text{HO-CH}_3 + \\text{Br}^-$$<br>The potential energy curve shows a single high energy peak representing the transition state with no intermediates:<br><div class='border border-slate-200 dark:border-navy-700 p-2 rounded-lg bg-white dark:bg-navy-900 my-4 max-w-lg mx-auto'><img src='images/sn2_energy_profile.png' class='w-full' alt='SN2 Potential Energy Profile'></div><br><strong>(b) Uses and Environmental Effects:</strong><br><ul><li><strong>(i) Freon-12 ($\\text{CF}_2\\text{Cl}_2$):</strong><br><strong>Uses:</strong> Propellant in aerosol cans, refrigerant in refrigerators and ACs.<br><strong>Environmental Effects:</strong> Chemically stable in troposphere, but diffuses to stratospheric layer. Intense UV radiation splits it, releasing reactive chlorine free radicals ($\\text{Cl}^\\bullet$) which catalytically destroy the protective Ozone ($\\text{O}_3$) molecules, causing Ozone hole and allowing harmful UV-B radiation to reach Earth.</li><li><strong>(ii) DDT:</strong><br><strong>Uses:</strong> Powerful contact insecticide to control mosquitoes (malaria vector) and lice.<br><strong>Environmental Effects:</strong> Persistent organic pollutant. Highly non-biodegradable and lipid-soluble. It bioaccumulates in fatty tissue and undergoes biomagnification up the food chain. In birds, it disrupts calcium metabolism, causing thinning of eggshells and premature breaking, leading to population collapse.</li></ul>"
+            solution: "<strong>(a) $\\text{S}_N2$ Mechanism of Methyl Bromide + aq. NaOH:</strong><br>The reaction occurs in a single concerted step. The nucleophile ($\\text{OH}^-$) attacks the electrophilic carbon of methyl bromide from the backside, opposite to the leaving group ($\\text{Br}^-$). This forms an unstable pentacoordinated transition state where carbon is $sp^2$ hybridized and partially bonded to both groups. Departure of $\\text{Br}^-$ leads to a product with inverted configuration (Walden Inversion):<br>$$\\text{OH}^- + \\text{CH}_3\\text{-Br} \\rightarrow \\left[ \\text{HO}\\cdots\\text{C(H}_3)\\cdots\\text{Br} \\right]^{\\ddagger} \\rightarrow \\text{HO-CH}_3 + \\text{Br}^-$$<br>The potential energy curve shows a single high energy peak representing the transition state with no intermediates:<br><div class='border border-slate-200 dark:border-slate-800 p-2 rounded-xl bg-white dark:bg-slate-900 my-4 max-w-lg mx-auto'><img src='images/sn2_energy_profile.png' class='w-full' alt='SN2 Potential Energy Profile'></div><br><strong>(b) Uses and Environmental Effects:</strong><br><ul><li><strong>(i) Freon-12 ($\\text{CF}_2\\text{Cl}_2$):</strong><br><strong>Uses:</strong> Propellant in aerosol cans, refrigerant in refrigerators and ACs.<br><strong>Environmental Effects:</strong> Chemically stable in troposphere, but diffuses to stratospheric layer. Intense UV radiation splits it, releasing reactive chlorine free radicals ($\\text{Cl}^\\bullet$) which catalytically destroy the protective Ozone ($\\text{O}_3$) molecules, causing Ozone hole and allowing harmful UV-B radiation to reach Earth.</li><li><strong>(ii) DDT:</strong><br><strong>Uses:</strong> Powerful contact insecticide to control mosquitoes (malaria vector) and lice.<br><strong>Environmental Effects:</strong> Persistent organic pollutant. Highly non-biodegradable and lipid-soluble. It bioaccumulates in fatty tissue and undergoes biomagnification up the food chain. In birds, it disrupts calcium metabolism, causing thinning of eggshells and premature breaking, leading to population collapse.</li></ul>"
         }
     ]
 };
 
-// State Variables
+// Periodic Table Syllabus Dataset
+const PERIODIC_DATA = [
+    { num: 1, sym: "H", name: "Hydrogen", mass: "1.008", block: "s", electroneg: "2.20", state: "+1, -1", pot: "-2.25V", relevance: "Constituent of acids, fuels, and standard hydrogen electrodes (SHE) in Electrochemistry." },
+    { num: 3, sym: "Li", name: "Lithium", mass: "6.94", block: "s", electroneg: "0.98", state: "+1", pot: "-3.05V", relevance: "Strongest reducing agent in electrochemistry due to highest negative standard reduction potential." },
+    { num: 6, sym: "C", name: "Carbon", mass: "12.011", block: "p", electroneg: "2.55", state: "+4, -4", pot: "N/A", relevance: "Core element of Organic chemistry; makes up alkyl chains, aromatic rings, and functional groups." },
+    { num: 7, sym: "N", name: "Nitrogen", mass: "14.007", block: "p", electroneg: "3.04", state: "-3 to +5", pot: "N/A", relevance: "Key constituent of nitriles (methyl cyanide, ethanenitrile), nitro groups, and amino compounds." },
+    { num: 8, sym: "O", name: "Oxygen", mass: "15.999", block: "p", electroneg: "3.44", state: "-2, -1", pot: "+1.23V", relevance: "Highly electronegative; present in carbonyl bonds (acetone), hydroxyls (alcohols), and fuel cells." },
+    { num: 9, sym: "F", name: "Fluorine", mass: "18.998", block: "p", electroneg: "3.98", state: "-1", pot: "+2.87V", relevance: "Most electronegative element; forms alkyl fluorides via the Swarts Reaction." },
+    { num: 12, sym: "Mg", name: "Magnesium", mass: "24.305", block: "s", electroneg: "1.31", state: "+2", pot: "-2.37V", relevance: "Used in Grignard reagents (R-Mg-X) and featured as the anode in the Mg/Ag Nernst cell." },
+    { num: 17, sym: "Cl", name: "Chlorine", mass: "35.45", block: "p", electroneg: "3.16", state: "-1", pot: "+1.36V", relevance: "Reagent in nucleophilic substitution, chlorobenzene resonance, and Freon-12 (CF2Cl2)." },
+    { num: 24, sym: "Cr", name: "Chromium", mass: "51.996", block: "d", electroneg: "1.66", state: "+2 to +6", pot: "-0.74V", relevance: "Standard d-block metal; key oxidation state catalyst (e.g. Chromic acid, CrO3, Jones Reagent)." },
+    { num: 25, sym: "Mn", name: "Manganese", mass: "54.938", block: "d", electroneg: "1.55", state: "+2 to +7", pot: "-1.18V", relevance: "Reduced from +7 (KMnO4) to +2 in acidic titrations (MnO4- + 8H+ + 5e- -> Mn2+ + 4H2O)." },
+    { num: 26, sym: "Fe", name: "Iron", mass: "55.845", block: "d", electroneg: "1.83", state: "+2, +3", pot: "-0.44V", relevance: "Acts as a Lewis acid catalyst in electrophilic bromination of benzene (Fe/FeBr3)." },
+    { num: 28, sym: "Ni", name: "Nickel", mass: "58.693", block: "d", electroneg: "1.91", state: "+2", pot: "-0.25V", relevance: "Electrolysed in Ni(NO3)2 cells to deposit metallic Nickel at the cathode (2 faradays per mole)." },
+    { num: 29, sym: "Cu", name: "Copper", mass: "63.546", block: "d", electroneg: "1.90", state: "+1, +2", pot: "+0.34V", relevance: "Key electrode in standard Daniell cells; widely used as a reduction catalyst." },
+    { num: 30, sym: "Zn", name: "Zinc", mass: "65.38", block: "d", electroneg: "1.65", state: "+2", pot: "-0.76V", relevance: "Acts as a reducing agent to convert phenols to benzene upon heating with zinc dust (ZnO byproduct)." },
+    { num: 35, sym: "Br", name: "Bromine", mass: "79.904", block: "p", electroneg: "2.96", state: "-1", pot: "+1.07V", relevance: "Common leaving group in S_N1/S_N2 substitution reactions (e.g., isobutyl bromide, tert-butyl bromide)." },
+    { num: 47, sym: "Ag", name: "Silver", mass: "107.868", block: "d", electroneg: "1.93", state: "+1", pot: "+0.80V", relevance: "Featured as the cathode in Nernst cells (Ag+ + e- -> Ag) and featured in AgCN isocyanide synthesis." },
+    { num: 53, sym: "I", name: "Iodine", mass: "126.904", block: "p", electroneg: "2.66", state: "-1", pot: "+0.54V", relevance: "Best leaving group among halogens. Synthesized from chlorides/bromides via the Finkelstein reaction." }
+];
+
+// LocalStorage State Management
 let currentTab = 'dashboard';
 let darkTheme = false;
 let quizAnswers = {};
+let bookmarks = JSON.parse(localStorage.getItem('chem_bookmarks')) || [];
+let mastered = JSON.parse(localStorage.getItem('chem_mastered')) || [];
 
 // On Load
 document.addEventListener("DOMContentLoaded", () => {
@@ -457,8 +480,64 @@ document.addEventListener("DOMContentLoaded", () => {
     if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
         toggleDarkMode();
     }
+    updateBookmarkBadge();
     renderContent();
 });
+
+// Sync badge count
+function updateBookmarkBadge() {
+    const badge = document.getElementById('bookmark-badge');
+    if (badge) {
+        badge.innerText = bookmarks.length;
+    }
+}
+
+// Toggle Bookmark
+function toggleBookmark(id, event) {
+    if (event) event.stopPropagation();
+    const idx = bookmarks.indexOf(id);
+    if (idx > -1) {
+        bookmarks.splice(idx, 1);
+    } else {
+        bookmarks.push(id);
+    }
+    localStorage.setItem('chem_bookmarks', JSON.stringify(bookmarks));
+    updateBookmarkBadge();
+    
+    // Rerender icons
+    const icons = document.querySelectorAll(`.bmark-btn-${id}`);
+    icons.forEach(icon => {
+        if (bookmarks.includes(id)) {
+            icon.className = `fa-solid fa-star text-yellow-500 bmark-btn-${id}`;
+        } else {
+            icon.className = `fa-regular fa-star text-slate-400 dark:text-slate-500 hover:text-yellow-500 bmark-btn-${id}`;
+        }
+    });
+}
+
+// Toggle Mastered Progress
+function toggleMastered(id, event) {
+    if (event) event.stopPropagation();
+    const idx = mastered.indexOf(id);
+    if (idx > -1) {
+        mastered.splice(idx, 1);
+    } else {
+        mastered.push(id);
+    }
+    localStorage.setItem('chem_mastered', JSON.stringify(mastered));
+    
+    // Render status
+    const btns = document.querySelectorAll(`.master-btn-${id}`);
+    btns.forEach(btn => {
+        if (mastered.includes(id)) {
+            btn.className = `px-3 py-1 bg-emerald-100 dark:bg-emerald-950/30 text-emerald-800 dark:text-emerald-300 rounded-lg text-xs font-bold transition-all flex items-center space-x-1.5 master-btn-${id}`;
+            btn.innerHTML = `<i class="fa-solid fa-circle-check text-emerald-500"></i> <span>Mastered</span>`;
+        } else {
+            btn.className = `px-3 py-1 bg-slate-100 hover:bg-slate-200 dark:bg-slate-800 dark:hover:bg-slate-700 text-slate-500 dark:text-slate-400 rounded-lg text-xs font-semibold transition-all flex items-center space-x-1.5 master-btn-${id}`;
+            btn.innerHTML = `<i class="fa-regular fa-circle text-slate-400"></i> <span>Mark Mastered</span>`;
+        }
+    });
+}
 
 // Switch Sections/Tabs
 function switchTab(tabId) {
@@ -467,13 +546,13 @@ function switchTab(tabId) {
     // Reset active nav style
     const links = document.querySelectorAll('nav button');
     links.forEach(link => {
-        link.className = "flex items-center w-full px-4 py-2.5 text-sm font-medium rounded-lg transition-colors text-slate-600 hover:bg-slate-100 dark:text-slate-300 dark:hover:bg-navy-700";
+        link.className = "flex items-center w-full px-4 py-2.5 text-sm font-semibold rounded-xl text-slate-600 hover:bg-slate-50 dark:text-slate-400 dark:hover:bg-slate-850/50 hover:text-slate-900 dark:hover:text-white transition-all";
     });
     
     // Set active link style
     const activeLink = document.getElementById(`nav-${tabId}`);
     if (activeLink) {
-        activeLink.className = "flex items-center w-full px-4 py-2.5 text-sm font-medium rounded-lg transition-colors text-navy-500 bg-navy-50 dark:bg-navy-700 dark:text-white";
+        activeLink.className = "flex items-center w-full px-4 py-3 text-sm font-semibold rounded-xl transition-all text-blue-600 bg-blue-50 dark:bg-blue-950/40 dark:text-blue-200";
     }
     
     renderContent();
@@ -491,6 +570,10 @@ function renderContent() {
         renderCalculators(container);
     } else if (currentTab === 'quiz') {
         renderQuiz(container);
+    } else if (currentTab === 'periodic-table') {
+        renderPeriodicTable(container);
+    } else if (currentTab === 'bookmarks') {
+        renderBookmarks(container);
     } else {
         renderSectionQuestions(container, currentTab);
     }
@@ -509,98 +592,145 @@ function renderContent() {
 
 // 1. Dashboard View
 function renderDashboard(container) {
+    // Total questions calculation
+    let totalQuestions = 0;
+    Object.keys(DATASET).forEach(key => {
+        totalQuestions += DATASET[key].length;
+    });
+    
+    const masteredCount = mastered.length;
+    const progressPercent = Math.round((masteredCount / totalQuestions) * 100);
+
     container.innerHTML = `
         <div class="space-y-6">
-            <!-- Hero banner -->
-            <div class="p-6 lg:p-8 bg-gradient-to-r from-navy-500 to-navy-600 rounded-2xl text-white shadow-md relative overflow-hidden">
+            <!-- Hero Banner -->
+            <div class="p-6 lg:p-8 bg-gradient-to-r from-blue-700 via-blue-800 to-indigo-800 rounded-2xl text-white shadow-lg relative overflow-hidden">
                 <div class="absolute right-0 bottom-0 opacity-10 pointer-events-none transform translate-x-10 translate-y-10">
-                    <i class="fa-solid fa-flask text-[15rem]"></i>
+                    <i class="fa-solid fa-atom text-[15rem]"></i>
                 </div>
-                <div class="max-w-xl">
-                    <span class="px-3 py-1 bg-white/20 rounded-full text-xs font-semibold uppercase tracking-wider">BOARD REVISION GUIDE</span>
-                    <h2 class="text-3xl font-extrabold mt-3">CBSE Class XII Chemistry</h2>
-                    <p class="mt-2 text-navy-100 text-sm leading-relaxed">Access full, detailed, and completely solved solutions for your chemistry question paper. Use our interactive solvers and multi-choice quizzes to master the material section by section!</p>
+                <div class="max-w-2xl">
+                    <span class="px-3 py-1 bg-white/20 rounded-full text-xs font-bold uppercase tracking-wider">BOARD PREPARATION PORTAL</span>
+                    <h2 class="text-3xl lg:text-4xl font-black mt-3 leading-tight">Advanced Board Solved Database</h2>
+                    <p class="mt-2 text-blue-100 text-sm leading-relaxed font-medium">Access complete step-by-step chemical equations, numerical solvers, and structured conceptual reasoning. Track your progress dynamically as you study.</p>
                     <div class="flex flex-wrap gap-3 mt-6">
-                        <button onclick="switchTab('section-a')" class="px-4 py-2 bg-white text-navy-500 hover:bg-navy-50 rounded-lg text-sm font-bold transition-all shadow-sm">
-                            <i class="fa-solid fa-circle-play mr-2"></i> Start Solved Sections
+                        <button onclick="switchTab('section-a')" class="px-4 py-2.5 bg-white text-blue-900 hover:bg-blue-50 rounded-xl text-xs font-black transition-all shadow-md">
+                            <i class="fa-solid fa-circle-play mr-2"></i> Solve Questions
                         </button>
-                        <button onclick="switchTab('quiz')" class="px-4 py-2 bg-white/10 hover:bg-white/20 border border-white/20 rounded-lg text-sm font-semibold transition-all">
-                            Practice Quiz
+                        <button onclick="switchTab('periodic-table')" class="px-4 py-2.5 bg-white/10 hover:bg-white/20 border border-white/25 rounded-xl text-xs font-bold transition-all">
+                            Syllabus Periodic Table
                         </button>
                     </div>
+                </div>
+            </div>
+
+            <!-- Progress Card -->
+            <div class="bg-white dark:bg-slate-900 p-6 rounded-2xl border border-slate-200/85 dark:border-slate-800 shadow-sm grid grid-cols-1 md:grid-cols-3 gap-6 items-center">
+                <div class="md:col-span-2 space-y-3">
+                    <h3 class="text-lg font-black text-slate-800 dark:text-white flex items-center">
+                        <i class="fa-solid fa-chart-line mr-2.5 text-blue-500"></i> Course Syllabus Mastery Progress
+                    </h3>
+                    <p class="text-xs text-slate-400 dark:text-slate-500 font-medium">Mark questions as "Mastered" to populate your personal review status. Build confidence sequentially across the 5 standard paper sections.</p>
+                    
+                    <div class="pt-2">
+                        <div class="flex justify-between text-xs font-extrabold text-slate-500 dark:text-slate-400 mb-1.5">
+                            <span class="uppercase tracking-wider">QUESTIONS SYLLABUS COMPLETED</span>
+                            <span>${masteredCount} / ${totalQuestions} (${progressPercent}%)</span>
+                        </div>
+                        <div class="h-2.5 w-full bg-slate-100 dark:bg-slate-800 rounded-full overflow-hidden">
+                            <div class="h-full bg-gradient-to-r from-blue-500 to-indigo-600 rounded-full transition-all duration-500" style="width: ${progressPercent}%"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-blue-50/50 dark:bg-blue-950/20 p-5 rounded-xl border border-blue-100 dark:border-blue-900/30 text-center space-y-1">
+                    <span class="text-3xl font-black text-blue-700 dark:text-blue-300 block">${progressPercent}%</span>
+                    <span class="text-[10px] font-bold uppercase tracking-wider text-blue-600 dark:text-blue-400 block">Current Preparation Index</span>
+                    <span class="text-[11px] text-slate-500 dark:text-slate-400 block font-medium">
+                        ${progressPercent >= 80 ? 'Excellent! Ready for the exam.' : progressPercent >= 50 ? 'Great progress. Keep solving!' : 'Select a section to start studying.'}
+                    </span>
                 </div>
             </div>
 
             <!-- Stats grid -->
             <div class="grid grid-cols-2 lg:grid-cols-4 gap-4">
-                <div onclick="switchTab('section-a')" class="p-5 bg-white dark:bg-navy-800 rounded-xl border border-slate-200 dark:border-navy-700 shadow-sm cursor-pointer hover:border-teal-500 transition-all">
-                    <div class="text-teal-500 p-2.5 bg-teal-50 dark:bg-teal-950/30 rounded-lg w-fit mb-3">
-                        <i class="fa-solid fa-list-check text-xl"></i>
+                <div onclick="switchTab('section-a')" class="p-5 bg-white dark:bg-slate-900 rounded-2xl border border-slate-200/80 dark:border-slate-800 shadow-sm cursor-pointer hover:border-emerald-500 transition-all">
+                    <div class="text-emerald-500 p-2.5 bg-emerald-50 dark:bg-emerald-950/30 rounded-xl w-fit mb-3">
+                        <i class="fa-solid fa-list-check text-lg"></i>
                     </div>
-                    <span class="text-xs text-slate-400 dark:text-slate-500 block uppercase font-bold">Section A</span>
-                    <span class="text-2xl font-black mt-1 block">16 <span class="text-sm font-normal text-slate-500">Marks</span></span>
-                    <span class="text-xs text-slate-400 mt-2 block">16 MCQs & Assertion-Reason</span>
+                    <span class="text-[10px] text-slate-400 dark:text-slate-500 block uppercase font-bold tracking-wider">Section A</span>
+                    <span class="text-2xl font-black mt-1 block">16 <span class="text-xs font-semibold text-slate-400">Marks</span></span>
+                    <span class="text-[10px] text-slate-400 mt-2 block font-medium">16 MCQs & Assertion-Reason</span>
                 </div>
 
-                <div onclick="switchTab('section-b')" class="p-5 bg-white dark:bg-navy-800 rounded-xl border border-slate-200 dark:border-navy-700 shadow-sm cursor-pointer hover:border-indigo-500 transition-all">
-                    <div class="text-indigo-500 p-2.5 bg-indigo-50 dark:bg-indigo-950/30 rounded-lg w-fit mb-3">
-                        <i class="fa-solid fa-circle-info text-xl"></i>
+                <div onclick="switchTab('section-b')" class="p-5 bg-white dark:bg-slate-900 rounded-2xl border border-slate-200/80 dark:border-slate-800 shadow-sm cursor-pointer hover:border-indigo-500 transition-all">
+                    <div class="text-indigo-500 p-2.5 bg-indigo-50 dark:bg-indigo-950/30 rounded-xl w-fit mb-3">
+                        <i class="fa-solid fa-circle-info text-lg"></i>
                     </div>
-                    <span class="text-xs text-slate-400 dark:text-slate-500 block uppercase font-bold">Section B</span>
-                    <span class="text-2xl font-black mt-1 block">10 <span class="text-sm font-normal text-slate-500">Marks</span></span>
-                    <span class="text-xs text-slate-400 mt-2 block">5 Very Short Answers</span>
+                    <span class="text-[10px] text-slate-400 dark:text-slate-500 block uppercase font-bold tracking-wider">Section B</span>
+                    <span class="text-2xl font-black mt-1 block">10 <span class="text-xs font-semibold text-slate-400">Marks</span></span>
+                    <span class="text-[10px] text-slate-400 mt-2 block font-medium">5 Very Short Answers</span>
                 </div>
 
-                <div onclick="switchTab('section-c')" class="p-5 bg-white dark:bg-navy-800 rounded-xl border border-slate-200 dark:border-navy-700 shadow-sm cursor-pointer hover:border-purple-500 transition-all">
-                    <div class="text-purple-500 p-2.5 bg-purple-50 dark:bg-purple-950/30 rounded-lg w-fit mb-3">
-                        <i class="fa-solid fa-clipboard-question text-xl"></i>
+                <div onclick="switchTab('section-c')" class="p-5 bg-white dark:bg-slate-900 rounded-2xl border border-slate-200/80 dark:border-slate-800 shadow-sm cursor-pointer hover:border-purple-500 transition-all">
+                    <div class="text-purple-500 p-2.5 bg-purple-50 dark:bg-purple-950/30 rounded-xl w-fit mb-3">
+                        <i class="fa-solid fa-clipboard-question text-lg"></i>
                     </div>
-                    <span class="text-xs text-slate-400 dark:text-slate-500 block uppercase font-bold">Section C</span>
-                    <span class="text-2xl font-black mt-1 block">21 <span class="text-sm font-normal text-slate-500">Marks</span></span>
-                    <span class="text-xs text-slate-400 mt-2 block">7 Short Answer Questions</span>
+                    <span class="text-[10px] text-slate-400 dark:text-slate-500 block uppercase font-bold tracking-wider">Section C</span>
+                    <span class="text-2xl font-black mt-1 block">21 <span class="text-xs font-semibold text-slate-400">Marks</span></span>
+                    <span class="text-[10px] text-slate-400 mt-2 block font-medium">7 Short Answer Questions</span>
                 </div>
 
-                <div onclick="switchTab('section-e')" class="p-5 bg-white dark:bg-navy-800 rounded-xl border border-slate-200 dark:border-navy-700 shadow-sm cursor-pointer hover:border-amber-500 transition-all">
-                    <div class="text-amber-500 p-2.5 bg-amber-50 dark:bg-amber-950/30 rounded-lg w-fit mb-3">
-                        <i class="fa-solid fa-file-invoice text-xl"></i>
+                <div onclick="switchTab('section-e')" class="p-5 bg-white dark:bg-slate-900 rounded-2xl border border-slate-200/80 dark:border-slate-800 shadow-sm cursor-pointer hover:border-amber-500 transition-all">
+                    <div class="text-amber-500 p-2.5 bg-amber-50 dark:bg-amber-950/30 rounded-xl w-fit mb-3">
+                        <i class="fa-solid fa-file-invoice text-lg"></i>
                     </div>
-                    <span class="text-xs text-slate-400 dark:text-slate-500 block uppercase font-bold">Section E</span>
-                    <span class="text-2xl font-black mt-1 block">25 <span class="text-sm font-normal text-slate-500">Marks</span></span>
-                    <span class="text-xs text-slate-400 mt-2 block">5 Long Answer Questions</span>
+                    <span class="text-[10px] text-slate-400 dark:text-slate-500 block uppercase font-bold tracking-wider">Section E</span>
+                    <span class="text-2xl font-black mt-1 block">25 <span class="text-xs font-semibold text-slate-400">Marks</span></span>
+                    <span class="text-[10px] text-slate-400 mt-2 block font-medium">5 Long Answer Questions</span>
                 </div>
             </div>
 
-            <!-- Detailed info cards -->
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
-                <!-- Solvers link card -->
-                <div class="p-6 bg-white dark:bg-navy-800 rounded-xl border border-slate-200 dark:border-navy-700 shadow-sm space-y-4">
-                    <h3 class="text-lg font-bold"><i class="fa-solid fa-flask-vial mr-2 text-emerald-500"></i> Interactive Chemistry Calculators</h3>
-                    <p class="text-sm text-slate-500 dark:text-slate-400 leading-relaxed">Test numerical questions from the paper with custom values. Check how variables change using physical equations on the fly!</p>
-                    <ul class="space-y-2 text-sm text-slate-600 dark:text-slate-300">
-                        <li><i class="fa-solid fa-chevron-right text-xs text-emerald-500 mr-2"></i> First-order Kinetics & Half-life Calculator</li>
-                        <li><i class="fa-solid fa-chevron-right text-xs text-emerald-500 mr-2"></i> Nernst Equation & Cell Potential Solver</li>
-                        <li><i class="fa-solid fa-chevron-right text-xs text-emerald-500 mr-2"></i> Colligative Boiling point elevation & Molar Mass Finder</li>
-                        <li><i class="fa-solid fa-chevron-right text-xs text-emerald-500 mr-2"></i> Activation Energy Arrhenius Calculator</li>
+            <!-- Features Grid -->
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+                <!-- Solvers Link -->
+                <div class="p-6 bg-white dark:bg-slate-900 rounded-2xl border border-slate-200/80 dark:border-slate-800 shadow-sm space-y-4">
+                    <h3 class="text-base font-black"><i class="fa-solid fa-calculator mr-2 text-emerald-500"></i> Dynamic Calculators</h3>
+                    <p class="text-xs text-slate-400 dark:text-slate-500 leading-relaxed font-medium">Compute physical chemistry properties in real time. Great for verifying numeric board assignments:</p>
+                    <ul class="space-y-2 text-xs text-slate-600 dark:text-slate-400 font-medium">
+                        <li><i class="fa-solid fa-arrow-right text-[10px] text-emerald-500 mr-2"></i> First-order Kinetics & Half-life</li>
+                        <li><i class="fa-solid fa-arrow-right text-[10px] text-emerald-500 mr-2"></i> Nernst Electrochemical Potential</li>
+                        <li><i class="fa-solid fa-arrow-right text-[10px] text-emerald-500 mr-2"></i> Boiling & Freezing Solute Molar Mass</li>
+                        <li><i class="fa-solid fa-arrow-right text-[10px] text-emerald-500 mr-2"></i> Arrhenius Activation Energy ($E_a$)</li>
                     </ul>
-                    <button onclick="switchTab('calculators')" class="w-full py-2 bg-emerald-50 hover:bg-emerald-100 text-emerald-700 dark:bg-emerald-950/20 dark:hover:bg-emerald-950/30 dark:text-emerald-300 rounded-lg text-sm font-bold transition-all">
+                    <button onclick="switchTab('calculators')" class="w-full py-2 bg-emerald-50 hover:bg-emerald-100 text-emerald-700 dark:bg-emerald-950/20 dark:hover:bg-emerald-950/30 dark:text-emerald-300 rounded-xl text-xs font-bold transition-all">
                         Launch Solvers
                     </button>
                 </div>
 
-                <!-- Word doc info -->
-                <div class="p-6 bg-white dark:bg-navy-800 rounded-xl border border-slate-200 dark:border-navy-700 shadow-sm flex flex-col justify-between">
+                <!-- Periodic Table Info -->
+                <div class="p-6 bg-white dark:bg-slate-900 rounded-2xl border border-slate-200/80 dark:border-slate-800 shadow-sm space-y-4">
+                    <h3 class="text-base font-black"><i class="fa-solid fa-table mr-2 text-cyan-500"></i> Board Periodic Table Widget</h3>
+                    <p class="text-xs text-slate-400 dark:text-slate-500 leading-relaxed font-medium">Fully custom interactive periodic widget focusing strictly on elements referenced in your Class XII organic and inorganic syllabus.</p>
+                    <p class="text-xs text-slate-600 dark:text-slate-400 font-medium">Click and inspect elements to read configuration, standard reduction potentials ($E^\circ$), electronegativity, and specific exam chapter relevance.</p>
+                    <button onclick="switchTab('periodic-table')" class="w-full py-2 bg-cyan-50 hover:bg-cyan-100 text-cyan-700 dark:bg-cyan-950/20 dark:hover:bg-cyan-950/30 dark:text-cyan-300 rounded-xl text-xs font-bold transition-all">
+                        Open Periodic Grid
+                    </button>
+                </div>
+
+                <!-- Word doc download card -->
+                <div class="p-6 bg-white dark:bg-slate-900 rounded-2xl border border-slate-200/80 dark:border-slate-800 shadow-sm flex flex-col justify-between">
                     <div>
-                        <h3 class="text-lg font-bold"><i class="fa-solid fa-file-word mr-2 text-blue-500"></i> Print-Ready Solved Document</h3>
-                        <p class="text-sm text-slate-500 dark:text-slate-400 leading-relaxed mt-2">Download a professionally formatted, fully styled Microsoft Word Document (.docx) containing the exact answers, derivations, structural chemical formulas, and diagrams presented on this webpage.</p>
-                        <div class="p-3 bg-slate-50 dark:bg-navy-900 rounded-lg flex items-center space-x-3 mt-4">
+                        <h3 class="text-base font-black"><i class="fa-solid fa-file-word mr-2 text-blue-500"></i> Word Solved Guide</h3>
+                        <p class="text-xs text-slate-400 dark:text-slate-500 leading-relaxed font-medium mt-1">Download your master reference study manual in Word .docx format complete with custom vectors, styled tables, and formatted latex steps.</p>
+                        <div class="p-3 bg-slate-50 dark:bg-slate-950 rounded-xl flex items-center space-x-3 mt-4">
                             <i class="fa-solid fa-folder-open text-blue-500 text-xl"></i>
                             <div>
-                                <h4 class="text-xs font-bold">CBSE_Class_12_Chemistry_Solved_Paper.docx</h4>
-                                <p class="text-[10px] text-slate-400">Offline Study Reference • High-Res Graphics</p>
+                                <h4 class="text-xs font-bold">GR_Syllabus_Solved_Paper.docx</h4>
+                                <p class="text-[9px] text-slate-400 font-semibold uppercase">Offline Reference • High-Res Graphics</p>
                             </div>
                         </div>
                     </div>
-                    <a href="CBSE_Class_12_Chemistry_Solved_Paper.docx" download class="w-full mt-6 py-2 bg-blue-50 hover:bg-blue-100 text-blue-700 dark:bg-blue-950/20 dark:hover:bg-blue-950/30 dark:text-blue-300 rounded-lg text-sm font-bold text-center transition-all">
+                    <a href="CBSE_Class_12_Chemistry_Solved_Paper.docx" download class="w-full mt-6 py-2 bg-blue-50 hover:bg-blue-100 text-blue-700 dark:bg-blue-950/20 dark:hover:bg-blue-950/30 dark:text-blue-300 rounded-xl text-xs font-bold text-center transition-all">
                         <i class="fa-solid fa-download mr-1"></i> Download Word Doc
                     </a>
                 </div>
@@ -609,7 +739,7 @@ function renderDashboard(container) {
     `;
 }
 
-// 2. Render Section Questions (Generic rendering for Sections A, B, C, D, E)
+// 2. Section Questions Renderer (With Stars Bookmarking & Master checkboxes!)
 function renderSectionQuestions(container, tabId) {
     const questions = DATASET[tabId];
     if (!questions) return;
@@ -624,10 +754,12 @@ function renderSectionQuestions(container, tabId) {
     
     // Header
     const header = document.createElement('div');
-    header.className = 'border-b border-slate-200 dark:border-navy-700 pb-4 mb-6';
+    header.className = 'border-b border-slate-200 dark:border-slate-800 pb-4 mb-6 flex justify-between items-center';
     header.innerHTML = `
-        <h2 class="text-2xl font-extrabold text-navy-500 dark:text-white">${sectionHeaders[tabId]}</h2>
-        <p class="text-sm text-slate-400 mt-1">Practice and study questions sequentially. Expand cards to view comprehensive solutions.</p>
+        <div>
+            <h2 class="text-2xl font-extrabold text-blue-900 dark:text-white leading-tight">${sectionHeaders[tabId]}</h2>
+            <p class="text-xs text-slate-400 dark:text-slate-500 mt-1 font-medium">Click a card to reveal comprehensive explanations. Track mastery using checklists.</p>
+        </div>
     `;
     container.appendChild(header);
 
@@ -635,52 +767,70 @@ function renderSectionQuestions(container, tabId) {
     questions.forEach(q => {
         const card = document.createElement('div');
         card.id = `card-${q.id}`;
-        card.className = 'bg-white dark:bg-navy-800 border border-slate-200 dark:border-navy-700 rounded-xl shadow-sm mb-4 overflow-hidden transition-all';
+        card.className = 'bg-white dark:bg-slate-900 border border-slate-200/80 dark:border-slate-800 rounded-2xl shadow-sm mb-4 overflow-hidden transition-all duration-200';
         
+        const isBmarked = bookmarks.includes(q.id);
+        const bmarkClass = isBmarked ? 'fa-solid fa-star text-yellow-500' : 'fa-regular fa-star text-slate-400 dark:text-slate-500 hover:text-yellow-500';
+        
+        const isMastered = mastered.includes(q.id);
+        const masterBtnClass = isMastered ? 'bg-emerald-100 dark:bg-emerald-950/30 text-emerald-800 dark:text-emerald-300' : 'bg-slate-50 dark:bg-slate-800 hover:bg-slate-100 dark:hover:bg-slate-700 text-slate-500 dark:text-slate-400';
+        const masterIcon = isMastered ? 'fa-solid fa-circle-check text-emerald-500' : 'fa-regular fa-circle text-slate-400';
+        const masterText = isMastered ? 'Mastered' : 'Mark Mastered';
+
         if (q.isOrQuestion) {
-            // Settle HTML structure for OR questions (Q21, Q28, Q31, Q32, Q33)
             card.innerHTML = `
-                <div class="p-5 border-b border-slate-100 dark:border-navy-700 bg-slate-50/50 dark:bg-navy-800/50 flex justify-between items-center">
-                    <span class="px-2.5 py-1 bg-navy-500 text-white rounded-md text-xs font-bold">Q${q.number}</span>
-                    <span class="text-xs font-semibold text-slate-400 uppercase tracking-wider">${q.marks} Marks • Choice Question</span>
+                <div class="px-5 py-3 border-b border-slate-100 dark:border-slate-800 bg-slate-50/50 dark:bg-slate-900/50 flex justify-between items-center">
+                    <div class="flex items-center space-x-2">
+                        <span class="px-2.5 py-1 bg-blue-600 text-white rounded-lg text-xs font-black">Q${q.number}</span>
+                        <span class="text-xs font-bold text-slate-400 dark:text-slate-500 uppercase tracking-wider">${q.marks} Marks • Choice</span>
+                    </div>
+                    <!-- Controls -->
+                    <div class="flex items-center space-x-3">
+                        <button onclick="toggleMastered('${q.id}', event)" class="px-3 py-1 rounded-lg text-xs font-bold transition-all flex items-center space-x-1.5 ${masterBtnClass} master-btn-${q.id}">
+                            <i class="${masterIcon}"></i> <span>${masterText}</span>
+                        </button>
+                        <button onclick="toggleBookmark('${q.id}', event)" class="p-1">
+                            <i class="${bmarkClass} bmark-btn-${q.id} text-base transition-colors"></i>
+                        </button>
+                    </div>
                 </div>
+                
                 <!-- OR Navigation Tabs -->
-                <div class="flex border-b border-slate-100 dark:border-navy-700">
-                    <button onclick="toggleOrTab('${q.id}', 'A')" id="btn-${q.id}-A" class="flex-1 py-2 text-sm font-semibold text-center border-b-2 border-navy-500 text-navy-500 dark:text-white dark:border-slate-300">
+                <div class="flex border-b border-slate-100 dark:border-slate-800">
+                    <button onclick="toggleOrTab('${q.id}', 'A')" id="btn-${q.id}-A" class="flex-1 py-2.5 text-xs font-bold text-center border-b-2 border-blue-600 text-blue-600 dark:text-white dark:border-slate-400">
                         ${q.optionA.title}
                     </button>
-                    <button onclick="toggleOrTab('${q.id}', 'B')" id="btn-${q.id}-B" class="flex-1 py-2 text-sm font-semibold text-center border-b-2 border-transparent text-slate-400 hover:text-slate-600 dark:hover:text-slate-200">
+                    <button onclick="toggleOrTab('${q.id}', 'B')" id="btn-${q.id}-B" class="flex-1 py-2.5 text-xs font-bold text-center border-b-2 border-transparent text-slate-400 hover:text-slate-600 dark:hover:text-slate-200">
                         ${q.optionB.title}
                     </button>
                 </div>
                 
                 <!-- Option A Content -->
                 <div id="content-${q.id}-A" class="p-5 space-y-4">
-                    <div class="text-base font-semibold leading-relaxed">${q.optionA.question}</div>
-                    <div class="pt-4 border-t border-slate-100 dark:border-navy-700">
-                        <span class="inline-block text-xs font-bold text-emerald-600 dark:text-emerald-400 uppercase mb-2">Step-by-step Solution:</span>
+                    <div class="text-base font-semibold leading-relaxed text-slate-800 dark:text-slate-100">${q.optionA.question}</div>
+                    <div class="pt-4 border-t border-slate-100 dark:border-slate-800">
+                        <span class="inline-block text-[11px] font-black text-emerald-600 dark:text-emerald-400 uppercase tracking-wider mb-2">Step-by-step Solution:</span>
                         <div class="text-sm leading-relaxed text-slate-600 dark:text-slate-300 space-y-2">${q.optionA.solution}</div>
                     </div>
                 </div>
                 <!-- Option B Content -->
                 <div id="content-${q.id}-B" class="p-5 space-y-4 hidden">
-                    <div class="text-base font-semibold leading-relaxed">${q.optionB.question}</div>
-                    <div class="pt-4 border-t border-slate-100 dark:border-navy-700">
-                        <span class="inline-block text-xs font-bold text-emerald-600 dark:text-emerald-400 uppercase mb-2">Step-by-step Solution:</span>
+                    <div class="text-base font-semibold leading-relaxed text-slate-800 dark:text-slate-100">${q.optionB.question}</div>
+                    <div class="pt-4 border-t border-slate-100 dark:border-slate-800">
+                        <span class="inline-block text-[11px] font-black text-emerald-600 dark:text-emerald-400 uppercase tracking-wider mb-2">Step-by-step Solution:</span>
                         <div class="text-sm leading-relaxed text-slate-600 dark:text-slate-300 space-y-2">${q.optionB.solution}</div>
                     </div>
                 </div>
             `;
         } else {
-            // Standard questions
             let mcqOptionsHtml = '';
             if (q.type === 'mcq' || q.type === 'ar') {
                 mcqOptionsHtml = `
                     <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 my-4">
                         ${q.options.map((opt, idx) => `
-                            <div class="p-3 border border-slate-100 dark:border-navy-700 rounded-lg text-sm bg-slate-50 dark:bg-navy-900/40 flex items-center space-x-2">
-                                <span class="h-6 w-6 rounded-full bg-slate-200 dark:bg-navy-800 text-xs font-bold flex items-center justify-center">${String.fromCharCode(97 + idx)}</span>
-                                <span>${opt}</span>
+                            <div class="p-3 border border-slate-100 dark:border-slate-800 rounded-xl text-xs font-semibold bg-slate-50 dark:bg-slate-950 flex items-center space-x-2">
+                                <span class="h-6 w-6 rounded-full bg-slate-200 dark:bg-slate-800 text-xs font-black flex items-center justify-center shrink-0">${String.fromCharCode(97 + idx)}</span>
+                                <span class="text-slate-700 dark:text-slate-200">${opt}</span>
                             </div>
                         `).join('')}
                     </div>
@@ -688,29 +838,38 @@ function renderSectionQuestions(container, tabId) {
             }
 
             card.innerHTML = `
-                <div onclick="toggleAccordion('${q.id}')" class="p-5 flex items-center justify-between cursor-pointer hover:bg-slate-50/50 dark:hover:bg-navy-700/30 transition-colors">
+                <div onclick="toggleAccordion('${q.id}')" class="p-5 flex items-center justify-between cursor-pointer hover:bg-slate-50/50 dark:hover:bg-slate-850/20 transition-colors">
                     <div class="flex items-center space-x-4">
-                        <span class="h-8 w-8 bg-navy-500 text-white rounded-lg font-bold text-sm flex items-center justify-center">Q${q.number}</span>
+                        <span class="h-8 w-8 bg-blue-600 text-white rounded-xl font-bold text-xs flex items-center justify-center shrink-0">Q${q.number}</span>
                         <div>
-                            <h3 class="font-bold text-slate-800 dark:text-white text-sm line-clamp-1">${q.question.replace(/<[^>]*>/g, '').substring(0, 80)}...</h3>
-                            <span class="text-xs text-slate-400 uppercase tracking-wider">${q.marks} Mark${q.marks > 1 ? 's' : ''} • ${q.type === 'mcq' ? 'Multiple Choice' : q.type === 'ar' ? 'Assertion-Reason' : 'Subjective'}</span>
+                            <h3 class="font-extrabold text-slate-800 dark:text-white text-sm line-clamp-1">${q.question.replace(/<[^>]*>/g, '').substring(0, 80)}...</h3>
+                            <span class="text-[10px] font-bold text-slate-400 dark:text-slate-500 uppercase tracking-wider">${q.marks} Mark${q.marks > 1 ? 's' : ''} • ${q.type === 'mcq' ? 'Multiple Choice' : q.type === 'ar' ? 'Assertion-Reason' : 'Subjective'}</span>
                         </div>
                     </div>
-                    <i id="chevron-${q.id}" class="fa-solid fa-chevron-down text-slate-400 dark:text-slate-500 transform transition-transform duration-200"></i>
+                    
+                    <div class="flex items-center space-x-4 ml-2" onclick="event.stopPropagation()">
+                        <button onclick="toggleMastered('${q.id}', event)" class="px-2.5 py-1 rounded-lg text-[10px] font-black transition-all flex items-center space-x-1.5 ${masterBtnClass} master-btn-${q.id}">
+                            <i class="${masterIcon} text-xs"></i> <span>${masterText}</span>
+                        </button>
+                        <button onclick="toggleBookmark('${q.id}', event)" class="p-1">
+                            <i class="${bmarkClass} bmark-btn-${q.id} text-base transition-colors"></i>
+                        </button>
+                        <i id="chevron-${q.id}" class="fa-solid fa-chevron-down text-slate-400 dark:text-slate-500 transform transition-transform duration-200"></i>
+                    </div>
                 </div>
                 
-                <div id="accordion-${q.id}" class="hidden p-5 border-t border-slate-100 dark:border-navy-700 bg-slate-50/20 dark:bg-navy-800/10 space-y-4">
-                    <div class="text-base font-semibold leading-relaxed">${q.question}</div>
+                <div id="accordion-${q.id}" class="hidden p-5 border-t border-slate-100 dark:border-slate-800 bg-slate-50/10 dark:bg-slate-900/10 space-y-4">
+                    <div class="text-base font-semibold leading-relaxed text-slate-800 dark:text-slate-100">${q.question}</div>
                     ${mcqOptionsHtml}
-                    <div class="pt-4 border-t border-slate-100 dark:border-navy-700">
+                    <div class="pt-4 border-t border-slate-100 dark:border-slate-800">
                         ${(q.type === 'mcq' || q.type === 'ar') ? `
                             <div class="mb-3">
-                                <span class="px-2.5 py-1 bg-emerald-100 text-emerald-800 dark:bg-emerald-900/30 dark:text-emerald-200 rounded text-xs font-bold uppercase">
+                                <span class="px-2.5 py-1 bg-emerald-100 text-emerald-800 dark:bg-emerald-950/40 dark:text-emerald-300 rounded text-xs font-black uppercase tracking-wider">
                                     Correct Option: (${q.correctOption})
                                 </span>
                             </div>
                         ` : ''}
-                        <span class="inline-block text-xs font-bold text-emerald-600 dark:text-emerald-400 uppercase mb-2">Step-by-step Solution:</span>
+                        <span class="inline-block text-[11px] font-black text-emerald-600 dark:text-emerald-400 uppercase tracking-wider mb-2">Step-by-step Solution:</span>
                         <div class="text-sm leading-relaxed text-slate-600 dark:text-slate-300 space-y-2">${q.solution}</div>
                     </div>
                 </div>
@@ -721,7 +880,7 @@ function renderSectionQuestions(container, tabId) {
     });
 }
 
-// Collapsible logic
+// Collapsible accordion logic
 function toggleAccordion(id) {
     const acc = document.getElementById(`accordion-${id}`);
     const chevron = document.getElementById(`chevron-${id}`);
@@ -743,52 +902,298 @@ function toggleOrTab(id, choice) {
     const contentB = document.getElementById(`content-${id}-B`);
     
     if (choice === 'A') {
-        btnA.className = "flex-1 py-2 text-sm font-semibold text-center border-b-2 border-navy-500 text-navy-500 dark:text-white dark:border-slate-300";
-        btnB.className = "flex-1 py-2 text-sm font-semibold text-center border-b-2 border-transparent text-slate-400 hover:text-slate-600 dark:hover:text-slate-200";
+        btnA.className = "flex-1 py-2.5 text-xs font-bold text-center border-b-2 border-blue-600 text-blue-600 dark:text-white dark:border-slate-400";
+        btnB.className = "flex-1 py-2.5 text-xs font-bold text-center border-b-2 border-transparent text-slate-400 hover:text-slate-600 dark:hover:text-slate-200";
         contentA.classList.remove('hidden');
         contentB.classList.add('hidden');
     } else {
-        btnB.className = "flex-1 py-2 text-sm font-semibold text-center border-b-2 border-navy-500 text-navy-500 dark:text-white dark:border-slate-300";
-        btnA.className = "flex-1 py-2 text-sm font-semibold text-center border-b-2 border-transparent text-slate-400 hover:text-slate-600 dark:hover:text-slate-200";
+        btnB.className = "flex-1 py-2.5 text-xs font-bold text-center border-b-2 border-blue-600 text-blue-600 dark:text-white dark:border-slate-400";
+        btnA.className = "flex-1 py-2.5 text-xs font-bold text-center border-b-2 border-transparent text-slate-400 hover:text-slate-600 dark:hover:text-slate-200";
         contentB.classList.remove('hidden');
         contentA.classList.add('hidden');
     }
 }
 
-// 3. Render Quiz Mode for Section A
+// 3. Render Bookmarked Questions View
+function renderBookmarks(container) {
+    container.innerHTML = `
+        <div class="space-y-6">
+            <div class="border-b border-slate-200 dark:border-slate-800 pb-4">
+                <h2 class="text-2xl font-extrabold text-blue-900 dark:text-white leading-tight">My Bookmarked Questions</h2>
+                <p class="text-xs text-slate-400 dark:text-slate-500 mt-1 font-medium">Review and practice questions that you have bookmarked during your sessions.</p>
+            </div>
+            <div id="bookmarks-container"></div>
+        </div>
+    `;
+
+    const bmarkListContainer = document.getElementById('bookmarks-container');
+    if (bookmarks.length === 0) {
+        bmarkListContainer.innerHTML = `
+            <div class="p-12 text-center text-slate-400 dark:text-slate-500 space-y-3 bg-white dark:bg-slate-900 border border-dashed border-slate-200 dark:border-slate-800 rounded-2xl">
+                <i class="fa-regular fa-star text-5xl text-slate-300"></i>
+                <p class="text-sm font-bold">No Bookmarked Questions</p>
+                <p class="text-xs max-w-xs mx-auto">Click the star icon at the top right of any question card to save it here for quick review!</p>
+            </div>
+        `;
+        return;
+    }
+
+    // Filter dataset
+    let bookmarkedQs = [];
+    Object.keys(DATASET).forEach(secKey => {
+        DATASET[secKey].forEach(q => {
+            if (bookmarks.includes(q.id)) {
+                bookmarkedQs.push({ q, secKey });
+            }
+        });
+    });
+
+    // Render cards
+    bookmarkedQs.forEach(({ q, secKey }) => {
+        const card = document.createElement('div');
+        card.className = 'bg-white dark:bg-slate-900 border border-slate-200/80 dark:border-slate-800 rounded-2xl shadow-sm mb-4 overflow-hidden';
+        
+        const isMastered = mastered.includes(q.id);
+        const masterBtnClass = isMastered ? 'bg-emerald-100 dark:bg-emerald-950/30 text-emerald-800 dark:text-emerald-300' : 'bg-slate-50 dark:bg-slate-800 hover:bg-slate-100 dark:hover:bg-slate-700 text-slate-500 dark:text-slate-400';
+        const masterIcon = isMastered ? 'fa-solid fa-circle-check text-emerald-500' : 'fa-regular fa-circle text-slate-400';
+        const masterText = isMastered ? 'Mastered' : 'Mark Mastered';
+
+        if (q.isOrQuestion) {
+            card.innerHTML = `
+                <div class="px-5 py-3 border-b border-slate-100 dark:border-slate-800 bg-slate-50/50 dark:bg-slate-900/50 flex justify-between items-center">
+                    <div class="flex items-center space-x-2">
+                        <span class="px-2.5 py-1 bg-blue-600 text-white rounded-lg text-xs font-black">Q${q.number}</span>
+                        <span class="text-xs font-bold text-slate-400 dark:text-slate-500 uppercase tracking-wider">${q.marks} Marks • Choice • ${secKey.toUpperCase()}</span>
+                    </div>
+                    <div class="flex items-center space-x-3">
+                        <button onclick="toggleMastered('${q.id}', event)" class="px-3 py-1 rounded-lg text-xs font-bold transition-all flex items-center space-x-1.5 ${masterBtnClass} master-btn-${q.id}">
+                            <i class="${masterIcon}"></i> <span>${masterText}</span>
+                        </button>
+                        <button onclick="toggleBookmark('${q.id}', event); renderBookmarks(document.getElementById('content-area'))" class="p-1">
+                            <i class="fa-solid fa-star text-yellow-500 text-base"></i>
+                        </button>
+                    </div>
+                </div>
+                <!-- OR Navigation Tabs -->
+                <div class="flex border-b border-slate-100 dark:border-slate-800">
+                    <button onclick="toggleOrTab('${q.id}', 'A')" id="btn-${q.id}-A" class="flex-1 py-2.5 text-xs font-bold text-center border-b-2 border-blue-600 text-blue-600 dark:text-white">
+                        ${q.optionA.title}
+                    </button>
+                    <button onclick="toggleOrTab('${q.id}', 'B')" id="btn-${q.id}-B" class="flex-1 py-2.5 text-xs font-bold text-center border-b-2 border-transparent text-slate-400 hover:text-slate-600 dark:hover:text-slate-200">
+                        ${q.optionB.title}
+                    </button>
+                </div>
+                <!-- Content Option A -->
+                <div id="content-${q.id}-A" class="p-5 space-y-4">
+                    <div class="text-base font-semibold text-slate-800 dark:text-slate-100">${q.optionA.question}</div>
+                    <div class="pt-4 border-t border-slate-100 dark:border-slate-800">
+                        <span class="inline-block text-[11px] font-black text-emerald-600 dark:text-emerald-400 uppercase tracking-wider mb-2">Step-by-step Solution:</span>
+                        <div class="text-sm leading-relaxed text-slate-600 dark:text-slate-300 space-y-2">${q.optionA.solution}</div>
+                    </div>
+                </div>
+                <!-- Content Option B -->
+                <div id="content-${q.id}-B" class="p-5 space-y-4 hidden">
+                    <div class="text-base font-semibold text-slate-800 dark:text-slate-100">${q.optionB.question}</div>
+                    <div class="pt-4 border-t border-slate-100 dark:border-slate-800">
+                        <span class="inline-block text-[11px] font-black text-emerald-600 dark:text-emerald-400 uppercase tracking-wider mb-2">Step-by-step Solution:</span>
+                        <div class="text-sm leading-relaxed text-slate-600 dark:text-slate-300 space-y-2">${q.optionB.solution}</div>
+                    </div>
+                </div>
+            `;
+        } else {
+            let mcqOptionsHtml = '';
+            if (q.type === 'mcq' || q.type === 'ar') {
+                mcqOptionsHtml = `
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 my-4">
+                        ${q.options.map((opt, idx) => `
+                            <div class="p-3 border border-slate-100 dark:border-slate-800 rounded-xl text-xs font-semibold bg-slate-50 dark:bg-slate-950 flex items-center space-x-2">
+                                <span class="h-6 w-6 rounded-full bg-slate-200 dark:bg-slate-800 text-xs font-black flex items-center justify-center shrink-0">${String.fromCharCode(97 + idx)}</span>
+                                <span class="text-slate-700 dark:text-slate-200">${opt}</span>
+                            </div>
+                        `).join('')}
+                    </div>
+                `;
+            }
+
+            card.innerHTML = `
+                <div onclick="toggleAccordion('${q.id}')" class="p-5 flex items-center justify-between cursor-pointer hover:bg-slate-50/50 dark:hover:bg-slate-850/20 transition-colors">
+                    <div class="flex items-center space-x-4">
+                        <span class="h-8 w-8 bg-blue-600 text-white rounded-xl font-bold text-xs flex items-center justify-center shrink-0">Q${q.number}</span>
+                        <div>
+                            <h3 class="font-extrabold text-slate-800 dark:text-white text-sm line-clamp-1">${q.question.replace(/<[^>]*>/g, '').substring(0, 80)}...</h3>
+                            <span class="text-[10px] font-bold text-slate-400 dark:text-slate-500 uppercase tracking-wider">${q.marks} Mark${q.marks > 1 ? 's' : ''} • ${q.type === 'mcq' ? 'Multiple Choice' : q.type === 'ar' ? 'Assertion-Reason' : 'Subjective'} • ${secKey.toUpperCase()}</span>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-center space-x-4 ml-2" onclick="event.stopPropagation()">
+                        <button onclick="toggleMastered('${q.id}', event)" class="px-2.5 py-1 rounded-lg text-[10px] font-black transition-all flex items-center space-x-1.5 ${masterBtnClass} master-btn-${q.id}">
+                            <i class="${masterIcon} text-xs"></i> <span>${masterText}</span>
+                        </button>
+                        <button onclick="toggleBookmark('${q.id}', event); renderBookmarks(document.getElementById('content-area'))" class="p-1">
+                            <i class="fa-solid fa-star text-yellow-500 text-base"></i>
+                        </button>
+                        <i id="chevron-${q.id}" class="fa-solid fa-chevron-down text-slate-400 dark:text-slate-500 transform transition-transform duration-200"></i>
+                    </div>
+                </div>
+                
+                <div id="accordion-${q.id}" class="hidden p-5 border-t border-slate-100 dark:border-slate-800 bg-slate-50/10 dark:bg-slate-900/10 space-y-4">
+                    <div class="text-base font-semibold leading-relaxed text-slate-800 dark:text-slate-100">${q.question}</div>
+                    ${mcqOptionsHtml}
+                    <div class="pt-4 border-t border-slate-100 dark:border-slate-800">
+                        ${(q.type === 'mcq' || q.type === 'ar') ? `
+                            <div class="mb-3">
+                                <span class="px-2.5 py-1 bg-emerald-100 text-emerald-800 dark:bg-emerald-950/40 dark:text-emerald-300 rounded text-xs font-black uppercase tracking-wider">
+                                    Correct Option: (${q.correctOption})
+                                </span>
+                            </div>
+                        ` : ''}
+                        <span class="inline-block text-[11px] font-black text-emerald-600 dark:text-emerald-400 uppercase tracking-wider mb-2">Step-by-step Solution:</span>
+                        <div class="text-sm leading-relaxed text-slate-600 dark:text-slate-300 space-y-2">${q.solution}</div>
+                    </div>
+                </div>
+            `;
+        }
+        bmarkListContainer.appendChild(card);
+    });
+}
+
+// 4. Render Syllabus Interactive Periodic Table Widget
+function renderPeriodicTable(container) {
+    container.innerHTML = `
+        <div class="space-y-6">
+            <div class="border-b border-slate-200 dark:border-slate-800 pb-4">
+                <h2 class="text-2xl font-extrabold text-blue-900 dark:text-white leading-tight">Class XII Syllabus Periodic Table Widget</h2>
+                <p class="text-xs text-slate-400 dark:text-slate-500 mt-1 font-medium">Click on any high-frequency syllabus element below to inspect electronegativity, config, and chapter relevance!</p>
+            </div>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+                <!-- Grid of Elements -->
+                <div class="lg:col-span-2 bg-white dark:bg-slate-900 border border-slate-200/80 dark:border-slate-800 rounded-2xl p-6 shadow-sm">
+                    <div class="grid grid-cols-5 sm:grid-cols-6 gap-3">
+                        ${PERIODIC_DATA.map(el => `
+                            <div onclick="selectElement(${el.num})" id="el-card-${el.num}" class="element-card border border-slate-200/80 dark:border-slate-800 p-3 rounded-xl text-center cursor-pointer transition-all hover:shadow-md hover:border-blue-500 bg-slate-50 dark:bg-slate-950 relative overflow-hidden group">
+                                <span class="absolute top-1 left-1.5 text-[9px] font-extrabold text-slate-400">${el.num}</span>
+                                <span class="text-xl font-black block text-slate-800 dark:text-white group-hover:text-blue-500">${el.sym}</span>
+                                <span class="text-[9px] text-slate-400 font-semibold block truncate">${el.name}</span>
+                                <span class="absolute right-1 bottom-1 text-[8px] px-1 bg-blue-100 dark:bg-blue-950 text-blue-800 dark:text-blue-300 rounded font-black uppercase">${el.block}</span>
+                            </div>
+                        `).join('')}
+                    </div>
+                </div>
+                
+                <!-- Details panel -->
+                <div class="lg:col-span-1">
+                    <div id="element-detail-pane" class="bg-white dark:bg-slate-900 border border-slate-200/80 dark:border-slate-800 rounded-2xl p-6 shadow-sm space-y-4 min-h-[350px] flex flex-col justify-center text-center">
+                        <i class="fa-solid fa-atom text-5xl text-blue-500/20 animate-spin" style="animation-duration: 10s"></i>
+                        <h4 class="text-sm font-bold text-slate-400 uppercase tracking-wider">No Element Selected</h4>
+                        <p class="text-xs text-slate-400 max-w-xs mx-auto">Select any element in the grid to review physical properties and its specific role in your board syllabus.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    `;
+    
+    // Auto-select Hydrogen
+    selectElement(1);
+}
+
+function selectElement(atomicNum) {
+    const el = PERIODIC_DATA.find(item => item.num === atomicNum);
+    if (!el) return;
+    
+    // Toggle active border styles on card
+    const cards = document.querySelectorAll('.element-card');
+    cards.forEach(c => c.className = "element-card border border-slate-200/80 dark:border-slate-800 p-3 rounded-xl text-center cursor-pointer transition-all hover:shadow-md hover:border-blue-500 bg-slate-50 dark:bg-slate-950 relative overflow-hidden group");
+    
+    const activeCard = document.getElementById(`el-card-${atomicNum}`);
+    if (activeCard) {
+        activeCard.className = "element-card border border-blue-500 ring-2 ring-blue-500/20 p-3 rounded-xl text-center cursor-pointer transition-all shadow-md bg-white dark:bg-slate-900 relative overflow-hidden group";
+    }
+    
+    const pane = document.getElementById('element-detail-pane');
+    pane.className = "bg-white dark:bg-slate-900 border border-slate-200/85 dark:border-slate-800 rounded-2xl p-6 shadow-sm space-y-5 text-left transition-all";
+    pane.innerHTML = `
+        <div class="flex items-center space-x-3.5 pb-4 border-b border-slate-100 dark:border-slate-800">
+            <div class="h-14 w-14 bg-gradient-to-br from-blue-600 to-indigo-600 text-white rounded-2xl flex flex-col items-center justify-center relative shadow-md">
+                <span class="absolute top-1 left-1.5 text-[8px] font-black">${el.num}</span>
+                <span class="text-2xl font-black">${el.sym}</span>
+            </div>
+            <div>
+                <h3 class="text-lg font-black text-slate-800 dark:text-white">${el.name}</h3>
+                <span class="text-[10px] font-extrabold uppercase bg-blue-50 dark:bg-blue-950 text-blue-700 dark:text-blue-300 px-2.5 py-0.5 rounded-md tracking-wider">${el.block}-block Element</span>
+            </div>
+        </div>
+        
+        <div class="grid grid-cols-2 gap-3 text-xs">
+            <div class="p-2.5 bg-slate-50 dark:bg-slate-950 rounded-xl">
+                <span class="text-[9px] text-slate-400 font-extrabold block uppercase">Atomic Mass</span>
+                <span class="font-bold text-slate-700 dark:text-slate-200">${el.mass} u</span>
+            </div>
+            <div class="p-2.5 bg-slate-50 dark:bg-slate-950 rounded-xl">
+                <span class="text-[9px] text-slate-400 font-extrabold block uppercase">Electronegativity</span>
+                <span class="font-bold text-slate-700 dark:text-slate-200">${el.electroneg}</span>
+            </div>
+            <div class="p-2.5 bg-slate-50 dark:bg-slate-950 rounded-xl">
+                <span class="text-[9px] text-slate-400 font-extrabold block uppercase">Oxidation States</span>
+                <span class="font-bold text-slate-700 dark:text-slate-200">${el.state}</span>
+            </div>
+            <div class="p-2.5 bg-slate-50 dark:bg-slate-950 rounded-xl">
+                <span class="text-[9px] text-slate-400 font-extrabold block uppercase">SRP Potential ($E^\\circ$)</span>
+                <span class="font-bold text-slate-700 dark:text-slate-200">${el.pot}</span>
+            </div>
+        </div>
+        
+        <div class="p-4 bg-blue-50/50 dark:bg-blue-950/20 border-l-4 border-blue-600 rounded-r-xl space-y-1">
+            <span class="text-[10px] font-black uppercase text-blue-700 dark:text-blue-300 block tracking-wider">Exam Syllabus Relevance</span>
+            <p class="text-xs text-slate-600 dark:text-slate-400 leading-relaxed font-medium">${el.relevance}</p>
+        </div>
+    `;
+    
+    if (window.renderMathInElement) {
+        renderMathInElement(pane, {
+            delimiters: [
+                {left: '$$', right: '$$', display: true},
+                {left: '$', right: '$', display: false}
+            ],
+            throwOnError: false
+        });
+    }
+}
+
+// 5. Render Practice Quiz View
 function renderQuiz(container) {
     const mcqs = DATASET['section-a'];
     container.innerHTML = `
         <div class="space-y-6">
-            <div class="border-b border-slate-200 dark:border-navy-700 pb-4">
-                <h2 class="text-2xl font-extrabold text-navy-500 dark:text-white">Interactive Practice Quiz (Section A)</h2>
-                <p class="text-sm text-slate-400 mt-1">Test your concepts! Answer all 16 questions and get instant feedback with full board grading.</p>
+            <div class="border-b border-slate-200 dark:border-slate-800 pb-4">
+                <h2 class="text-2xl font-extrabold text-blue-900 dark:text-white leading-tight">Interactive Practice Quiz (Section A)</h2>
+                <p class="text-xs text-slate-400 dark:text-slate-500 mt-1 font-medium">Complete all 16 multiple-choice & assertion-reason questions to test your skills and unlock full solutions.</p>
             </div>
             
             <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
                 <!-- Quiz List -->
                 <div class="lg:col-span-2 space-y-4">
                     ${mcqs.map((q, idx) => `
-                        <div class="bg-white dark:bg-navy-800 border border-slate-200 dark:border-navy-700 rounded-xl p-5 shadow-sm space-y-4">
+                        <div class="bg-white dark:bg-slate-900 border border-slate-200/80 dark:border-slate-800 rounded-2xl p-5 shadow-sm space-y-4">
                             <div class="flex items-center space-x-3">
-                                <span class="h-6 w-6 rounded bg-navy-500 text-white text-xs font-bold flex items-center justify-center">${idx + 1}</span>
-                                <span class="text-xs font-bold text-slate-400 uppercase tracking-wide">Question ${idx+1} • 1 Mark</span>
+                                <span class="h-6 w-6 rounded bg-blue-600 text-white text-xs font-bold flex items-center justify-center">${idx + 1}</span>
+                                <span class="text-[10px] font-bold text-slate-400 uppercase tracking-widest">Question ${idx+1} • 1 Mark</span>
                             </div>
-                            <div class="text-base font-semibold leading-relaxed">${q.question}</div>
+                            <div class="text-base font-semibold leading-relaxed text-slate-800 dark:text-slate-100">${q.question}</div>
                             
                             <!-- Options -->
                             <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
                                 ${q.options.map((opt, optIdx) => `
-                                    <button onclick="answerQuiz('${q.id}', ${optIdx}, ${q.correctIndex})" id="opt-${q.id}-${optIdx}" class="quiz-btn-option text-left p-3.5 rounded-lg border border-slate-100 dark:border-navy-700 hover:bg-slate-50 dark:hover:bg-navy-900/30 text-sm flex items-center space-x-3 transition-all">
-                                        <span class="h-6 w-6 rounded-full bg-slate-200 dark:bg-navy-800 text-xs font-bold flex items-center justify-center shrink-0">${String.fromCharCode(65 + optIdx)}</span>
+                                    <button onclick="answerQuiz('${q.id}', ${optIdx}, ${q.correctIndex})" id="opt-${q.id}-${optIdx}" class="quiz-btn-option text-left p-3.5 rounded-xl border border-slate-100 dark:border-slate-800 hover:bg-slate-50 dark:hover:bg-slate-950 text-xs font-semibold flex items-center space-x-3 transition-all">
+                                        <span class="h-6 w-6 rounded-full bg-slate-200 dark:bg-slate-800 text-xs font-black flex items-center justify-center shrink-0">${String.fromCharCode(65 + optIdx)}</span>
                                         <span>${opt}</span>
                                     </button>
                                 `).join('')}
                             </div>
                             
                             <!-- Solution block, shown on selection -->
-                            <div id="solution-quiz-${q.id}" class="hidden p-4 bg-emerald-50/20 dark:bg-emerald-950/10 border-t border-slate-100 dark:border-navy-700 text-sm leading-relaxed space-y-2">
-                                <span class="text-xs font-black uppercase text-emerald-600 dark:text-emerald-400">Board Solution Explanation:</span>
+                            <div id="solution-quiz-${q.id}" class="hidden p-4 bg-emerald-50/20 dark:bg-emerald-950/10 border-t border-slate-100 dark:border-slate-800 text-sm leading-relaxed space-y-2">
+                                <span class="text-xs font-black uppercase text-emerald-600 dark:text-emerald-400 tracking-wider">Board Solution Explanation:</span>
                                 <div>${q.solution}</div>
                             </div>
                         </div>
@@ -797,9 +1202,9 @@ function renderQuiz(container) {
                 
                 <!-- Sticky Scoreboard -->
                 <div class="lg:col-span-1">
-                    <div class="sticky top-6 bg-white dark:bg-navy-800 border border-slate-200 dark:border-navy-700 rounded-xl p-6 shadow-sm space-y-6">
-                        <h3 class="text-lg font-bold"><i class="fa-solid fa-award mr-2 text-indigo-500"></i> Scoreboard</h3>
-                        <div class="flex items-center justify-between border-b border-slate-100 dark:border-navy-700 pb-4">
+                    <div class="sticky top-6 bg-white dark:bg-slate-900 border border-slate-200/85 dark:border-slate-800 rounded-2xl p-6 shadow-sm space-y-6">
+                        <h3 class="text-base font-black"><i class="fa-solid fa-award mr-2 text-indigo-500"></i> Scoreboard</h3>
+                        <div class="flex items-center justify-between border-b border-slate-100 dark:border-slate-800 pb-4">
                             <div>
                                 <span class="text-2xl font-black text-slate-800 dark:text-white" id="score-val">0</span>
                                 <span class="text-sm font-semibold text-slate-400">/ 16</span>
@@ -808,16 +1213,16 @@ function renderQuiz(container) {
                         </div>
                         
                         <div class="space-y-2">
-                            <div class="flex justify-between text-xs font-bold text-slate-400">
+                            <div class="flex justify-between text-[10px] font-black text-slate-400">
                                 <span>PROGRESS</span>
                                 <span id="progress-percent">0%</span>
                             </div>
-                            <div class="h-2 w-full bg-slate-100 dark:bg-navy-900 rounded-full overflow-hidden">
+                            <div class="h-2 w-full bg-slate-100 dark:bg-slate-800 rounded-full overflow-hidden">
                                 <div id="progress-bar-val" class="h-full bg-indigo-500 rounded-full transition-all" style="width: 0%"></div>
                             </div>
                         </div>
                         
-                        <button onclick="resetQuiz()" class="w-full py-2.5 bg-slate-100 hover:bg-slate-200 dark:bg-navy-700 dark:hover:bg-navy-600 text-slate-700 dark:text-white rounded-lg text-sm font-bold text-center transition-all">
+                        <button onclick="resetQuiz()" class="w-full py-2.5 bg-slate-100 hover:bg-slate-200 dark:bg-slate-800 dark:hover:bg-slate-700 text-slate-700 dark:text-white rounded-xl text-xs font-bold text-center transition-all">
                             Reset Practice Quiz
                         </button>
                     </div>
@@ -836,9 +1241,9 @@ function answerQuiz(qId, selectedIdx, correctIdx) {
     const btns = document.querySelectorAll(`[id^="opt-${qId}-"]`);
     btns.forEach((btn, idx) => {
         if (idx === correctIdx) {
-            btn.classList.add('bg-emerald-100', 'border-emerald-500', 'text-emerald-800', 'dark:bg-emerald-950/20', 'dark:text-emerald-300');
+            btn.className = "text-left p-3.5 rounded-xl border text-xs font-bold flex items-center space-x-3 transition-all bg-emerald-100 border-emerald-500 text-emerald-800 dark:bg-emerald-950/20 dark:text-emerald-300";
         } else if (idx === selectedIdx) {
-            btn.classList.add('bg-red-100', 'border-red-500', 'text-red-800', 'dark:bg-red-950/20', 'dark:text-red-300');
+            btn.className = "text-left p-3.5 rounded-xl border text-xs font-bold flex items-center space-x-3 transition-all bg-red-100 border-red-500 text-red-800 dark:bg-red-950/20 dark:text-red-300";
         }
         btn.disabled = true;
     });
@@ -896,132 +1301,165 @@ function resetQuiz() {
     renderContent();
 }
 
-// 4. Render Chemistry Interactive Solvers
+// 6. Render Chemistry Solvers (Updated with Freezing Point Depression!)
 function renderCalculators(container) {
     container.innerHTML = `
         <div class="space-y-6">
-            <div class="border-b border-slate-200 dark:border-navy-700 pb-4">
-                <h2 class="text-2xl font-extrabold text-navy-500 dark:text-white">Chemistry Interactive Solvers</h2>
-                <p class="text-sm text-slate-400 mt-1">Interactively test physical calculations from the paper using your own customized parameters.</p>
+            <div class="border-b border-slate-200 dark:border-slate-800 pb-4">
+                <h2 class="text-2xl font-extrabold text-blue-900 dark:text-white leading-tight">Chemistry Interactive Solvers</h2>
+                <p class="text-xs text-slate-400 dark:text-slate-500 mt-1 font-medium">Interactively test physical calculations from the paper using your own customized parameters.</p>
             </div>
             
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <!-- 1. First-Order kinetics solver -->
-                <div class="bg-white dark:bg-navy-800 border border-slate-200 dark:border-navy-700 rounded-xl p-5 shadow-sm space-y-4">
+                <div class="bg-white dark:bg-slate-900 border border-slate-200/80 dark:border-slate-800 rounded-2xl p-5 shadow-sm space-y-4">
                     <h3 class="font-bold text-slate-800 dark:text-white flex items-center"><i class="fa-solid fa-stopwatch mr-2 text-indigo-500"></i> First-Order Kinetics Solver</h3>
-                    <p class="text-xs text-slate-500 dark:text-slate-400">Models Q19: $t = \\frac{2.303}{k} \\log_{10} \\left(\\frac{[A]_0}{[A]}\\right)$</p>
+                    <p class="text-[10px] text-slate-400 dark:text-slate-500">Models Q19: $t = \\frac{2.303}{k} \\log_{10} \\left(\\frac{[A]_0}{[A]}\\right)$</p>
                     <div class="space-y-3">
                         <div>
-                            <label class="block text-xs font-bold text-slate-400 uppercase">Rate Constant $k$ ($s^{-1}$):</label>
-                            <input type="number" id="kin-k" value="0.00115" step="any" class="w-full mt-1 p-2 border border-slate-100 dark:border-navy-700 bg-slate-50 dark:bg-navy-900 rounded text-sm focus:outline-none">
+                            <label class="block text-[10px] font-extrabold text-slate-400 uppercase tracking-wider">Rate Constant $k$ ($s^{-1}$):</label>
+                            <input type="number" id="kin-k" value="0.00115" step="any" class="w-full mt-1 p-2 border border-slate-100 dark:border-slate-800 bg-slate-50 dark:bg-slate-950 rounded-xl text-xs focus:outline-none">
                         </div>
                         <div class="grid grid-cols-2 gap-3">
                             <div>
-                                <label class="block text-xs font-bold text-slate-400 uppercase">Initial $[A]_0$ (g):</label>
-                                <input type="number" id="kin-a0" value="5.0" class="w-full mt-1 p-2 border border-slate-100 dark:border-navy-700 bg-slate-50 dark:bg-navy-900 rounded text-sm focus:outline-none">
+                                <label class="block text-[10px] font-extrabold text-slate-400 uppercase tracking-wider">Initial $[A]_0$ (g):</label>
+                                <input type="number" id="kin-a0" value="5.0" class="w-full mt-1 p-2 border border-slate-100 dark:border-slate-800 bg-slate-50 dark:bg-slate-950 rounded-xl text-xs focus:outline-none">
                             </div>
                             <div>
-                                <label class="block text-xs font-bold text-slate-400 uppercase">Final $[A]$ (g):</label>
-                                <input type="number" id="kin-a" value="3.0" class="w-full mt-1 p-2 border border-slate-100 dark:border-navy-700 bg-slate-50 dark:bg-navy-900 rounded text-sm focus:outline-none">
+                                <label class="block text-[10px] font-extrabold text-slate-400 uppercase tracking-wider">Final $[A]$ (g):</label>
+                                <input type="number" id="kin-a" value="3.0" class="w-full mt-1 p-2 border border-slate-100 dark:border-slate-800 bg-slate-50 dark:bg-slate-950 rounded-xl text-xs focus:outline-none">
                             </div>
                         </div>
-                        <button onclick="calculateKinetics()" class="w-full py-2 bg-indigo-500 hover:bg-indigo-600 text-white rounded font-bold text-sm transition-all shadow-sm">
+                        <button onclick="calculateKinetics()" class="w-full py-2 bg-indigo-600 hover:bg-indigo-700 text-white rounded-xl font-bold text-xs transition-all shadow-sm">
                             Calculate Time
                         </button>
-                        <div id="kin-result" class="hidden p-3 bg-indigo-50/50 dark:bg-indigo-950/20 text-sm font-semibold rounded text-indigo-700 dark:text-indigo-300 border-l-4 border-indigo-500">
+                        <div id="kin-result" class="hidden p-3 bg-indigo-50/50 dark:bg-indigo-950/20 text-xs font-bold rounded-xl text-indigo-700 dark:text-indigo-300 border-l-4 border-indigo-500">
                         </div>
                     </div>
                 </div>
 
                 <!-- 2. Nernst cell potential solver -->
-                <div class="bg-white dark:bg-navy-800 border border-slate-200 dark:border-navy-700 rounded-xl p-5 shadow-sm space-y-4">
+                <div class="bg-white dark:bg-slate-900 border border-slate-200/80 dark:border-slate-800 rounded-2xl p-5 shadow-sm space-y-4">
                     <h3 class="font-bold text-slate-800 dark:text-white flex items-center"><i class="fa-solid fa-car-battery mr-2 text-amber-500"></i> Nernst Potential Solver</h3>
-                    <p class="text-xs text-slate-500 dark:text-slate-400">Models Q32: $E_{\\text{cell}} = E^\\circ_{\\text{cell}} - \\frac{0.0591}{2} \\log_{10} \\left( \\frac{[\\text{Mg}^{2+}]}{[\\text{Ag}^+]^2} \\right)$</p>
+                    <p class="text-[10px] text-slate-400 dark:text-slate-500">Models Q32: $E_{\\text{cell}} = E^\\circ_{\\text{cell}} - \\frac{0.0591}{2} \\log_{10} \\left( \\frac{[\\text{Mg}^{2+}]}{[\\text{Ag}^+]^2} \\right)$</p>
                     <div class="space-y-3">
                         <div>
-                            <label class="block text-xs font-bold text-slate-400 uppercase">Standard Potential $E^\\circ_{\\text{cell}}$ (V):</label>
-                            <input type="number" id="ner-e0" value="3.17" class="w-full mt-1 p-2 border border-slate-100 dark:border-navy-700 bg-slate-50 dark:bg-navy-900 rounded text-sm focus:outline-none">
+                            <label class="block text-[10px] font-extrabold text-slate-400 uppercase tracking-wider">Standard Potential $E^\\circ_{\\text{cell}}$ (V):</label>
+                            <input type="number" id="ner-e0" value="3.17" class="w-full mt-1 p-2 border border-slate-100 dark:border-slate-800 bg-slate-50 dark:bg-slate-950 rounded-xl text-xs focus:outline-none">
                         </div>
                         <div class="grid grid-cols-2 gap-3">
                             <div>
-                                <label class="block text-xs font-bold text-slate-400 uppercase">$[\\text{Mg}^{2+}]$ Concentration (M):</label>
-                                <input type="number" id="ner-mg" value="0.13" step="any" class="w-full mt-1 p-2 border border-slate-100 dark:border-navy-700 bg-slate-50 dark:bg-navy-900 rounded text-sm focus:outline-none">
+                                <label class="block text-[10px] font-extrabold text-slate-400 uppercase tracking-wider">$[\\text{Mg}^{2+}]$ Concentration (M):</label>
+                                <input type="number" id="ner-mg" value="0.13" step="any" class="w-full mt-1 p-2 border border-slate-100 dark:border-slate-800 bg-slate-50 dark:bg-slate-950 rounded-xl text-xs focus:outline-none">
                             </div>
                             <div>
-                                <label class="block text-xs font-bold text-slate-400 uppercase">$[\\text{Ag}^+]$ Concentration (M):</label>
-                                <input type="number" id="ner-ag" value="0.0001" step="any" class="w-full mt-1 p-2 border border-slate-100 dark:border-navy-700 bg-slate-50 dark:bg-navy-900 rounded text-sm focus:outline-none">
+                                <label class="block text-[10px] font-extrabold text-slate-400 uppercase tracking-wider">$[\\text{Ag}^+]$ Concentration (M):</label>
+                                <input type="number" id="ner-ag" value="0.0001" step="any" class="w-full mt-1 p-2 border border-slate-100 dark:border-slate-800 bg-slate-50 dark:bg-slate-950 rounded-xl text-xs focus:outline-none">
                             </div>
                         </div>
-                        <button onclick="calculateNernst()" class="w-full py-2 bg-amber-500 hover:bg-amber-600 text-white rounded font-bold text-sm transition-all shadow-sm">
+                        <button onclick="calculateNernst()" class="w-full py-2 bg-amber-500 hover:bg-amber-600 text-white rounded-xl font-bold text-xs transition-all shadow-sm">
                             Calculate potential ($E_{\\text{cell}}$)
                         </button>
-                        <div id="ner-result" class="hidden p-3 bg-amber-50/50 dark:bg-amber-950/20 text-sm font-semibold rounded text-amber-700 dark:text-amber-300 border-l-4 border-amber-500">
+                        <div id="ner-result" class="hidden p-3 bg-amber-50/50 dark:bg-amber-950/20 text-xs font-bold rounded-xl text-amber-700 dark:text-amber-300 border-l-4 border-amber-500">
                         </div>
                     </div>
                 </div>
 
                 <!-- 3. Colligative Boiling Elevation solver -->
-                <div class="bg-white dark:bg-navy-800 border border-slate-200 dark:border-navy-700 rounded-xl p-5 shadow-sm space-y-4">
-                    <h3 class="font-bold text-slate-800 dark:text-white flex items-center"><i class="fa-solid fa-temperature-arrow-up mr-2 text-rose-500"></i> Molar Mass Finder (Boiling point elevation)</h3>
-                    <p class="text-xs text-slate-500 dark:text-slate-400">Models Q22: $M_2 = \\frac{K_b \\cdot w_2 \\cdot 1000}{\\Delta T_b \\cdot w_1}$</p>
+                <div class="bg-white dark:bg-slate-900 border border-slate-200/80 dark:border-slate-800 rounded-2xl p-5 shadow-sm space-y-4">
+                    <h3 class="font-bold text-slate-800 dark:text-white flex items-center"><i class="fa-solid fa-temperature-arrow-up mr-2 text-rose-500"></i> Molar Mass (Boiling Elevation)</h3>
+                    <p class="text-[10px] text-slate-400 dark:text-slate-500">Models Q22: $M_2 = \\frac{K_b \\cdot w_2 \\cdot 1000}{\\Delta T_b \\cdot w_1}$</p>
                     <div class="space-y-3">
                         <div class="grid grid-cols-2 gap-3">
                             <div>
-                                <label class="block text-xs font-bold text-slate-400 uppercase">$K_b$ Constant ($K \\text{ kg mol}^{-1}$):</label>
-                                <input type="number" id="col-kb" value="1.72" step="any" class="w-full mt-1 p-2 border border-slate-100 dark:border-navy-700 bg-slate-50 dark:bg-navy-900 rounded text-sm focus:outline-none">
+                                <label class="block text-[10px] font-extrabold text-slate-400 uppercase tracking-wider">$K_b$ Constant ($K \\text{ kg mol}^{-1}$):</label>
+                                <input type="number" id="col-kb" value="1.72" step="any" class="w-full mt-1 p-2 border border-slate-100 dark:border-slate-800 bg-slate-50 dark:bg-slate-950 rounded-xl text-xs focus:outline-none">
                             </div>
                             <div>
-                                <label class="block text-xs font-bold text-slate-400 uppercase">Boiling Temp Rise $\\Delta T_b$ (K or °C):</label>
-                                <input type="number" id="col-dtb" value="0.33" step="any" class="w-full mt-1 p-2 border border-slate-100 dark:border-navy-700 bg-slate-50 dark:bg-navy-900 rounded text-sm focus:outline-none">
+                                <label class="block text-[10px] font-extrabold text-slate-400 uppercase tracking-wider">Boiling Temp Rise $\\Delta T_b$ (K):</label>
+                                <input type="number" id="col-dtb" value="0.33" step="any" class="w-full mt-1 p-2 border border-slate-100 dark:border-slate-800 bg-slate-50 dark:bg-slate-950 rounded-xl text-xs focus:outline-none">
                             </div>
                         </div>
                         <div class="grid grid-cols-2 gap-3">
                             <div>
-                                <label class="block text-xs font-bold text-slate-400 uppercase">Mass of Solute $w_2$ (g):</label>
-                                <input type="number" id="col-w2" value="1.25" step="any" class="w-full mt-1 p-2 border border-slate-100 dark:border-navy-700 bg-slate-50 dark:bg-navy-900 rounded text-sm focus:outline-none">
+                                <label class="block text-[10px] font-extrabold text-slate-400 uppercase tracking-wider">Mass of Solute $w_2$ (g):</label>
+                                <input type="number" id="col-w2" value="1.25" step="any" class="w-full mt-1 p-2 border border-slate-100 dark:border-slate-800 bg-slate-50 dark:bg-slate-950 rounded-xl text-xs focus:outline-none">
                             </div>
                             <div>
-                                <label class="block text-xs font-bold text-slate-400 uppercase">Mass of Solvent $w_1$ (g):</label>
-                                <input type="number" id="col-w1" value="99.0" step="any" class="w-full mt-1 p-2 border border-slate-100 dark:border-navy-700 bg-slate-50 dark:bg-navy-900 rounded text-sm focus:outline-none">
+                                <label class="block text-[10px] font-extrabold text-slate-400 uppercase tracking-wider">Mass of Solvent $w_1$ (g):</label>
+                                <input type="number" id="col-w1" value="99.0" step="any" class="w-full mt-1 p-2 border border-slate-100 dark:border-slate-800 bg-slate-50 dark:bg-slate-950 rounded-xl text-xs focus:outline-none">
                             </div>
                         </div>
-                        <button onclick="calculateMolarMass()" class="w-full py-2 bg-rose-500 hover:bg-rose-600 text-white rounded font-bold text-sm transition-all shadow-sm">
+                        <button onclick="calculateMolarMass()" class="w-full py-2 bg-rose-500 hover:bg-rose-600 text-white rounded-xl font-bold text-xs transition-all shadow-sm">
                             Calculate solute molar mass ($M_2$)
                         </button>
-                        <div id="col-result" class="hidden p-3 bg-rose-50/50 dark:bg-rose-950/20 text-sm font-semibold rounded text-rose-700 dark:text-rose-300 border-l-4 border-rose-500">
+                        <div id="col-result" class="hidden p-3 bg-rose-50/50 dark:bg-rose-950/20 text-xs font-bold rounded-xl text-rose-700 dark:text-rose-300 border-l-4 border-rose-500">
                         </div>
                     </div>
                 </div>
 
-                <!-- 4. Activation Energy calculator -->
-                <div class="bg-white dark:bg-navy-800 border border-slate-200 dark:border-navy-700 rounded-xl p-5 shadow-sm space-y-4">
-                    <h3 class="font-bold text-slate-800 dark:text-white flex items-center"><i class="fa-solid fa-gauge-high mr-2 text-teal-500"></i> Arrhenius Activation Energy Solver</h3>
-                    <p class="text-xs text-slate-500 dark:text-slate-400">Models Q26 / Q33 OR: $E_a = \\frac{2.303 \\cdot R \\cdot T_1 \\cdot T_2}{T_2 - T_1} \\log_{10} \\left(\\frac{k_2}{k_1}\\right)$</p>
+                <!-- NEW 4. Colligative Freezing point depression solver -->
+                <div class="bg-white dark:bg-slate-900 border border-slate-200/80 dark:border-slate-800 rounded-2xl p-5 shadow-sm space-y-4">
+                    <h3 class="font-bold text-slate-800 dark:text-white flex items-center"><i class="fa-solid fa-temperature-arrow-down mr-2 text-cyan-500"></i> Freezing Point Depression Solver</h3>
+                    <p class="text-[10px] text-slate-400 dark:text-slate-500">Formula: $M_2 = \\frac{K_f \\cdot w_2 \\cdot 1000}{\\Delta T_f \\cdot w_1}$</p>
                     <div class="space-y-3">
                         <div class="grid grid-cols-2 gap-3">
                             <div>
-                                <label class="block text-xs font-bold text-slate-400 uppercase">Temperature $T_1$ (K):</label>
-                                <input type="number" id="act-t1" value="300" class="w-full mt-1 p-2 border border-slate-100 dark:border-navy-700 bg-slate-50 dark:bg-navy-900 rounded text-sm focus:outline-none">
+                                <label class="block text-[10px] font-extrabold text-slate-400 uppercase tracking-wider">$K_f$ Constant ($K \\text{ kg mol}^{-1}$):</label>
+                                <input type="number" id="col-kf" value="1.86" step="any" class="w-full mt-1 p-2 border border-slate-100 dark:border-slate-800 bg-slate-50 dark:bg-slate-950 rounded-xl text-xs focus:outline-none">
                             </div>
                             <div>
-                                <label class="block text-xs font-bold text-slate-400 uppercase">Temperature $T_2$ (K):</label>
-                                <input type="number" id="act-t2" value="320" class="w-full mt-1 p-2 border border-slate-100 dark:border-navy-700 bg-slate-50 dark:bg-navy-900 rounded text-sm focus:outline-none">
+                                <label class="block text-[10px] font-extrabold text-slate-400 uppercase tracking-wider">Freezing Temp Drop $\\Delta T_f$ (K):</label>
+                                <input type="number" id="col-dtf" value="0.25" step="any" class="w-full mt-1 p-2 border border-slate-100 dark:border-slate-800 bg-slate-50 dark:bg-slate-950 rounded-xl text-xs focus:outline-none">
                             </div>
                         </div>
                         <div class="grid grid-cols-2 gap-3">
                             <div>
-                                <label class="block text-xs font-bold text-slate-400 uppercase">Rate Constant $k_1$:</label>
-                                <input type="number" id="act-k1" value="0.02" step="any" class="w-full mt-1 p-2 border border-slate-100 dark:border-navy-700 bg-slate-50 dark:bg-navy-900 rounded text-sm focus:outline-none">
+                                <label class="block text-[10px] font-extrabold text-slate-400 uppercase tracking-wider">Mass of Solute $w_2$ (g):</label>
+                                <input type="number" id="col-w2-f" value="1.0" step="any" class="w-full mt-1 p-2 border border-slate-100 dark:border-slate-800 bg-slate-50 dark:bg-slate-950 rounded-xl text-xs focus:outline-none">
                             </div>
                             <div>
-                                <label class="block text-xs font-bold text-slate-400 uppercase">Rate Constant $k_2$:</label>
-                                <input type="number" id="act-k2" value="0.08" step="any" class="w-full mt-1 p-2 border border-slate-100 dark:border-navy-700 bg-slate-50 dark:bg-navy-900 rounded text-sm focus:outline-none">
+                                <label class="block text-[10px] font-extrabold text-slate-400 uppercase tracking-wider">Mass of Solvent $w_1$ (g):</label>
+                                <input type="number" id="col-w1-f" value="50.0" step="any" class="w-full mt-1 p-2 border border-slate-100 dark:border-slate-800 bg-slate-50 dark:bg-slate-950 rounded-xl text-xs focus:outline-none">
                             </div>
                         </div>
-                        <button onclick="calculateActivationEnergy()" class="w-full py-2 bg-teal-500 hover:bg-teal-600 text-white rounded font-bold text-sm transition-all shadow-sm">
+                        <button onclick="calculateFreezingDepression()" class="w-full py-2 bg-cyan-600 hover:bg-cyan-700 text-white rounded-xl font-bold text-xs transition-all shadow-sm">
+                            Calculate solute molar mass ($M_2$)
+                        </button>
+                        <div id="col-result-f" class="hidden p-3 bg-cyan-50/50 dark:bg-cyan-950/20 text-xs font-bold rounded-xl text-cyan-700 dark:text-cyan-300 border-l-4 border-cyan-500">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 5. Activation Energy calculator -->
+                <div class="bg-white dark:bg-slate-900 border border-slate-200/80 dark:border-slate-800 rounded-2xl p-5 shadow-sm space-y-4 md:col-span-2">
+                    <h3 class="font-bold text-slate-800 dark:text-white flex items-center"><i class="fa-solid fa-gauge-high mr-2 text-teal-500"></i> Arrhenius Activation Energy Solver</h3>
+                    <p class="text-[10px] text-slate-400 dark:text-slate-500">Models Q26 / Q33 OR: $E_a = \\frac{2.303 \\cdot R \\cdot T_1 \\cdot T_2}{T_2 - T_1} \\log_{10} \\left(\\frac{k_2}{k_1}\\right)$</p>
+                    <div class="space-y-3">
+                        <div class="grid grid-cols-2 gap-3">
+                            <div>
+                                <label class="block text-[10px] font-extrabold text-slate-400 uppercase tracking-wider">Temperature $T_1$ (K):</label>
+                                <input type="number" id="act-t1" value="300" class="w-full mt-1 p-2 border border-slate-100 dark:border-slate-800 bg-slate-50 dark:bg-slate-950 rounded-xl text-xs focus:outline-none">
+                            </div>
+                            <div>
+                                <label class="block text-[10px] font-extrabold text-slate-400 uppercase tracking-wider">Temperature $T_2$ (K):</label>
+                                <input type="number" id="act-t2" value="320" class="w-full mt-1 p-2 border border-slate-100 dark:border-slate-800 bg-slate-50 dark:bg-slate-950 rounded-xl text-xs focus:outline-none">
+                            </div>
+                        </div>
+                        <div class="grid grid-cols-2 gap-3">
+                            <div>
+                                <label class="block text-[10px] font-extrabold text-slate-400 uppercase tracking-wider">Rate Constant $k_1$:</label>
+                                <input type="number" id="act-k1" value="0.02" step="any" class="w-full mt-1 p-2 border border-slate-100 dark:border-slate-800 bg-slate-50 dark:bg-slate-950 rounded-xl text-xs focus:outline-none">
+                            </div>
+                            <div>
+                                <label class="block text-[10px] font-extrabold text-slate-400 uppercase tracking-wider">Rate Constant $k_2$:</label>
+                                <input type="number" id="act-k2" value="0.08" step="any" class="w-full mt-1 p-2 border border-slate-100 dark:border-slate-800 bg-slate-50 dark:bg-slate-950 rounded-xl text-xs focus:outline-none">
+                            </div>
+                        </div>
+                        <button onclick="calculateActivationEnergy()" class="w-full py-2 bg-teal-500 hover:bg-teal-600 text-white rounded-xl font-bold text-xs transition-all shadow-sm">
                             Calculate $E_a$
                         </button>
-                        <div id="act-result" class="hidden p-3 bg-teal-50/50 dark:bg-teal-950/20 text-sm font-semibold rounded text-teal-700 dark:text-teal-300 border-l-4 border-teal-500">
+                        <div id="act-result" class="hidden p-3 bg-teal-50/50 dark:bg-teal-950/20 text-xs font-bold rounded-xl text-teal-700 dark:text-teal-300 border-l-4 border-teal-500">
                         </div>
                     </div>
                 </div>
@@ -1030,7 +1468,7 @@ function renderCalculators(container) {
     `;
 }
 
-// 1. Calculate Kinetics
+// Interactive Calculators Logic
 function calculateKinetics() {
     const k = parseFloat(document.getElementById('kin-k').value);
     const a0 = parseFloat(document.getElementById('kin-a0').value);
@@ -1038,7 +1476,7 @@ function calculateKinetics() {
     const result = document.getElementById('kin-result');
     
     if (isNaN(k) || isNaN(a0) || isNaN(a) || k <= 0 || a0 <= 0 || a <= 0 || a > a0) {
-        result.className = "p-3 bg-red-50/50 dark:bg-red-950/20 text-sm font-semibold rounded text-red-700 dark:text-red-300 border-l-4 border-red-500";
+        result.className = "p-3 bg-red-50/50 dark:bg-red-950/20 text-xs font-bold rounded-xl text-red-700 dark:text-red-300 border-l-4 border-red-500";
         result.innerText = "Error: Please check that values are positive and Final [A] <= Initial [A]0.";
         result.classList.remove('hidden');
         return;
@@ -1047,7 +1485,7 @@ function calculateKinetics() {
     const time = (2.303 / k) * Math.log10(a0 / a);
     const t_half = 0.693 / k;
     
-    result.className = "p-3 bg-indigo-50/50 dark:bg-indigo-950/20 text-sm font-semibold rounded text-indigo-700 dark:text-indigo-300 border-l-4 border-indigo-500";
+    result.className = "p-3 bg-indigo-50/50 dark:bg-indigo-950/20 text-xs font-bold rounded-xl text-indigo-700 dark:text-indigo-300 border-l-4 border-indigo-500";
     result.innerHTML = `
         <strong>Result:</strong><br>
         • Time required ($t$): <strong>${time.toFixed(2)} seconds</strong><br>
@@ -1056,7 +1494,6 @@ function calculateKinetics() {
     result.classList.remove('hidden');
 }
 
-// 2. Calculate Nernst
 function calculateNernst() {
     const e0 = parseFloat(document.getElementById('ner-e0').value);
     const mg = parseFloat(document.getElementById('ner-mg').value);
@@ -1064,7 +1501,7 @@ function calculateNernst() {
     const result = document.getElementById('ner-result');
     
     if (isNaN(e0) || isNaN(mg) || isNaN(ag) || mg <= 0 || ag <= 0) {
-        result.className = "p-3 bg-red-50/50 dark:bg-red-950/20 text-sm font-semibold rounded text-red-700 dark:text-red-300 border-l-4 border-red-500";
+        result.className = "p-3 bg-red-50/50 dark:bg-red-950/20 text-xs font-bold rounded-xl text-red-700 dark:text-red-300 border-l-4 border-red-500";
         result.innerText = "Error: Concentrations and Standard potential must be valid positive numbers.";
         result.classList.remove('hidden');
         return;
@@ -1072,7 +1509,7 @@ function calculateNernst() {
     
     const potential = e0 - (0.0591 / 2) * Math.log10(mg / (ag ** 2));
     
-    result.className = "p-3 bg-amber-50/50 dark:bg-amber-950/20 text-sm font-semibold rounded text-amber-700 dark:text-amber-300 border-l-4 border-amber-500";
+    result.className = "p-3 bg-amber-50/50 dark:bg-amber-950/20 text-xs font-bold rounded-xl text-amber-700 dark:text-amber-300 border-l-4 border-amber-500";
     result.innerHTML = `
         <strong>Result:</strong><br>
         • Reaction Cell Potential ($E_{\\text{cell}}$): <strong>${potential.toFixed(3)} V</strong><br>
@@ -1081,7 +1518,6 @@ function calculateNernst() {
     result.classList.remove('hidden');
 }
 
-// 3. Calculate Molar Mass
 function calculateMolarMass() {
     const kb = parseFloat(document.getElementById('col-kb').value);
     const dtb = parseFloat(document.getElementById('col-dtb').value);
@@ -1090,7 +1526,7 @@ function calculateMolarMass() {
     const result = document.getElementById('col-result');
     
     if (isNaN(kb) || isNaN(dtb) || isNaN(w2) || isNaN(w1) || kb <= 0 || dtb <= 0 || w2 <= 0 || w1 <= 0) {
-        result.className = "p-3 bg-red-50/50 dark:bg-red-950/20 text-sm font-semibold rounded text-red-700 dark:text-red-300 border-l-4 border-red-500";
+        result.className = "p-3 bg-red-50/50 dark:bg-red-950/20 text-xs font-bold rounded-xl text-red-700 dark:text-red-300 border-l-4 border-red-500";
         result.innerText = "Error: Ensure all physical values are positive numbers.";
         result.classList.remove('hidden');
         return;
@@ -1098,7 +1534,7 @@ function calculateMolarMass() {
     
     const m2 = (kb * w2 * 1000) / (dtb * w1);
     
-    result.className = "p-3 bg-rose-50/50 dark:bg-rose-950/20 text-sm font-semibold rounded text-rose-700 dark:text-rose-300 border-l-4 border-rose-500";
+    result.className = "p-3 bg-rose-50/50 dark:bg-rose-950/20 text-xs font-bold rounded-xl text-rose-700 dark:text-rose-300 border-l-4 border-rose-500";
     result.innerHTML = `
         <strong>Result:</strong><br>
         • Calculated Solute Molar Mass ($M_2$): <strong>${m2.toFixed(2)} g/mol</strong>
@@ -1106,7 +1542,30 @@ function calculateMolarMass() {
     result.classList.remove('hidden');
 }
 
-// 4. Calculate Activation Energy
+function calculateFreezingDepression() {
+    const kf = parseFloat(document.getElementById('col-kf').value);
+    const dtf = parseFloat(document.getElementById('col-dtf').value);
+    const w2 = parseFloat(document.getElementById('col-w2-f').value);
+    const w1 = parseFloat(document.getElementById('col-w1-f').value);
+    const result = document.getElementById('col-result-f');
+    
+    if (isNaN(kf) || isNaN(dtf) || isNaN(w2) || isNaN(w1) || kf <= 0 || dtf <= 0 || w2 <= 0 || w1 <= 0) {
+        result.className = "p-3 bg-red-50/50 dark:bg-red-950/20 text-xs font-bold rounded-xl text-red-700 dark:text-red-300 border-l-4 border-red-500";
+        result.innerText = "Error: Ensure all physical values are positive numbers.";
+        result.classList.remove('hidden');
+        return;
+    }
+    
+    const m2 = (kf * w2 * 1000) / (dtf * w1);
+    
+    result.className = "p-3 bg-cyan-50/50 dark:bg-cyan-950/20 text-xs font-bold rounded-xl text-cyan-700 dark:text-cyan-300 border-l-4 border-cyan-500";
+    result.innerHTML = `
+        <strong>Result:</strong><br>
+        • Calculated Solute Molar Mass ($M_2$): <strong>${m2.toFixed(2)} g/mol</strong>
+    `;
+    result.classList.remove('hidden');
+}
+
 function calculateActivationEnergy() {
     const t1 = parseFloat(document.getElementById('act-t1').value);
     const t2 = parseFloat(document.getElementById('act-t2').value);
@@ -1115,7 +1574,7 @@ function calculateActivationEnergy() {
     const result = document.getElementById('act-result');
     
     if (isNaN(t1) || isNaN(t2) || isNaN(k1) || isNaN(k2) || t1 <= 0 || t2 <= 0 || k1 <= 0 || k2 <= 0 || t1 >= t2 || k1 >= k2) {
-        result.className = "p-3 bg-red-50/50 dark:bg-red-950/20 text-sm font-semibold rounded text-red-700 dark:text-red-300 border-l-4 border-red-500";
+        result.className = "p-3 bg-red-50/50 dark:bg-red-950/20 text-xs font-bold rounded-xl text-red-700 dark:text-red-300 border-l-4 border-red-500";
         result.innerText = "Error: Verify that T2 > T1, k2 > k1, and all inputs are positive.";
         result.classList.remove('hidden');
         return;
@@ -1124,7 +1583,7 @@ function calculateActivationEnergy() {
     const R = 8.314; // Gas constant
     const ea = (Math.log10(k2 / k1) * 2.303 * R * t1 * t2) / (t2 - t1);
     
-    result.className = "p-3 bg-teal-50/50 dark:bg-teal-950/20 text-sm font-semibold rounded text-teal-700 dark:text-teal-300 border-l-4 border-teal-500";
+    result.className = "p-3 bg-teal-50/50 dark:bg-teal-950/20 text-xs font-bold rounded-xl text-teal-700 dark:text-teal-300 border-l-4 border-teal-500";
     result.innerHTML = `
         <strong>Result:</strong><br>
         • Activation Energy ($E_a$): <strong>${(ea / 1000.0).toFixed(2)} kJ/mol</strong> (or ${(ea).toFixed(1)} J/mol)
@@ -1132,7 +1591,7 @@ function calculateActivationEnergy() {
     result.classList.remove('hidden');
 }
 
-// Interactive Keyword Search functionality
+// Live Keyword Search
 function handleSearch() {
     const query = document.getElementById('search-bar').value.toLowerCase().trim();
     const container = document.getElementById('content-area');
@@ -1143,9 +1602,9 @@ function handleSearch() {
     }
     
     container.innerHTML = `
-        <div class="border-b border-slate-200 dark:border-navy-700 pb-4 mb-6">
-            <h2 class="text-2xl font-extrabold text-navy-500 dark:text-white">Search Results</h2>
-            <p class="text-sm text-slate-400 mt-1">Showing search matches for: "${query}"</p>
+        <div class="border-b border-slate-200 dark:border-slate-800 pb-4 mb-6">
+            <h2 class="text-2xl font-extrabold text-blue-900 dark:text-white leading-tight">Search Results</h2>
+            <p class="text-xs text-slate-400 dark:text-slate-500 mt-1 font-medium font-medium">Showing search matches for: "${query}"</p>
         </div>
     `;
     
@@ -1169,49 +1628,66 @@ function handleSearch() {
     
     if (matches.length === 0) {
         container.innerHTML += `
-            <div class="p-8 text-center text-slate-400 dark:text-slate-500 space-y-3">
-                <i class="fa-solid fa-face-frown text-5xl"></i>
-                <p class="text-base font-semibold">No questions found matching your search term.</p>
-                <p class="text-xs">Try searching for terms like "Kinetics", "Nernst", "Grignard", "Colligative", or "DDT".</p>
+            <div class="p-12 text-center text-slate-400 dark:text-slate-500 space-y-3 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl shadow-sm">
+                <i class="fa-solid fa-magnifying-glass text-5xl text-slate-300"></i>
+                <p class="text-sm font-bold">No results found for your search term.</p>
+                <p class="text-xs max-w-xs mx-auto">Try searching for core concepts such as "Kinetics", "Nernst", "Grignard", "Colligative", or "DDT".</p>
             </div>
         `;
         return;
     }
     
-    // Render matching question cards
+    // Render cards
     matches.forEach(({ q, secKey }) => {
         const card = document.createElement('div');
-        card.className = 'bg-white dark:bg-navy-800 border border-slate-200 dark:border-navy-700 rounded-xl shadow-sm mb-4 overflow-hidden transition-all';
+        card.className = 'bg-white dark:bg-slate-900 border border-slate-200/80 dark:border-slate-800 rounded-2xl shadow-sm mb-4 overflow-hidden';
         
+        const isBmarked = bookmarks.includes(q.id);
+        const bmarkClass = isBmarked ? 'fa-solid fa-star text-yellow-500' : 'fa-regular fa-star text-slate-400 dark:text-slate-500 hover:text-yellow-500';
+        
+        const isMastered = mastered.includes(q.id);
+        const masterBtnClass = isMastered ? 'bg-emerald-100 dark:bg-emerald-950/30 text-emerald-800 dark:text-emerald-300' : 'bg-slate-50 dark:bg-slate-800 hover:bg-slate-100 dark:hover:bg-slate-700 text-slate-500 dark:text-slate-400';
+        const masterIcon = isMastered ? 'fa-solid fa-circle-check text-emerald-500' : 'fa-regular fa-circle text-slate-400';
+        const masterText = isMastered ? 'Mastered' : 'Mark Mastered';
+
         if (q.isOrQuestion) {
             card.innerHTML = `
-                <div class="p-5 border-b border-slate-100 dark:border-navy-700 bg-slate-50/50 dark:bg-navy-800/50 flex justify-between items-center">
-                    <span class="px-2.5 py-1 bg-navy-500 text-white rounded-md text-xs font-bold">Q${q.number}</span>
-                    <span class="text-xs font-semibold text-slate-400 uppercase tracking-wider">${q.marks} Marks • Choice Question • ${secKey.toUpperCase().replace('-', ' ')}</span>
+                <div class="px-5 py-3 border-b border-slate-100 dark:border-slate-800 bg-slate-50/50 dark:bg-slate-900/50 flex justify-between items-center">
+                    <div class="flex items-center space-x-2">
+                        <span class="px-2.5 py-1 bg-blue-600 text-white rounded-lg text-xs font-black">Q${q.number}</span>
+                        <span class="text-xs font-bold text-slate-400 dark:text-slate-500 uppercase tracking-wider">${q.marks} Marks • Choice • ${secKey.toUpperCase()}</span>
+                    </div>
+                    <div class="flex items-center space-x-3">
+                        <button onclick="toggleMastered('${q.id}', event)" class="px-3 py-1 rounded-lg text-xs font-bold transition-all flex items-center space-x-1.5 ${masterBtnClass} master-btn-${q.id}">
+                            <i class="${masterIcon}"></i> <span>${masterText}</span>
+                        </button>
+                        <button onclick="toggleBookmark('${q.id}', event)" class="p-1">
+                            <i class="${bmarkClass} bmark-btn-${q.id} text-base transition-colors"></i>
+                        </button>
+                    </div>
                 </div>
-                <!-- OR Navigation Tabs -->
-                <div class="flex border-b border-slate-100 dark:border-navy-700">
-                    <button onclick="toggleOrTab('${q.id}', 'A')" id="btn-${q.id}-A" class="flex-1 py-2 text-sm font-semibold text-center border-b-2 border-navy-500 text-navy-500 dark:text-white dark:border-slate-300">
+                <!-- OR Tabs -->
+                <div class="flex border-b border-slate-100 dark:border-slate-800">
+                    <button onclick="toggleOrTab('${q.id}', 'A')" id="btn-${q.id}-A" class="flex-1 py-2.5 text-xs font-bold text-center border-b-2 border-blue-600 text-blue-600 dark:text-white">
                         ${q.optionA.title}
                     </button>
-                    <button onclick="toggleOrTab('${q.id}', 'B')" id="btn-${q.id}-B" class="flex-1 py-2 text-sm font-semibold text-center border-b-2 border-transparent text-slate-400 hover:text-slate-600 dark:hover:text-slate-200">
+                    <button onclick="toggleOrTab('${q.id}', 'B')" id="btn-${q.id}-B" class="flex-1 py-2.5 text-xs font-bold text-center border-b-2 border-transparent text-slate-400 hover:text-slate-600 dark:hover:text-slate-200">
                         ${q.optionB.title}
                     </button>
                 </div>
-                
-                <!-- Option A Content -->
+                <!-- Content A -->
                 <div id="content-${q.id}-A" class="p-5 space-y-4">
-                    <div class="text-base font-semibold leading-relaxed">${q.optionA.question}</div>
-                    <div class="pt-4 border-t border-slate-100 dark:border-navy-700">
-                        <span class="inline-block text-xs font-bold text-emerald-600 dark:text-emerald-400 uppercase mb-2">Step-by-step Solution:</span>
+                    <div class="text-base font-semibold text-slate-800 dark:text-slate-100">${q.optionA.question}</div>
+                    <div class="pt-4 border-t border-slate-100 dark:border-slate-800">
+                        <span class="inline-block text-[11px] font-black text-emerald-600 dark:text-emerald-400 uppercase tracking-wider mb-2">Step-by-step Solution:</span>
                         <div class="text-sm leading-relaxed text-slate-600 dark:text-slate-300 space-y-2">${q.optionA.solution}</div>
                     </div>
                 </div>
-                <!-- Option B Content -->
+                <!-- Content B -->
                 <div id="content-${q.id}-B" class="p-5 space-y-4 hidden">
-                    <div class="text-base font-semibold leading-relaxed">${q.optionB.question}</div>
-                    <div class="pt-4 border-t border-slate-100 dark:border-navy-700">
-                        <span class="inline-block text-xs font-bold text-emerald-600 dark:text-emerald-400 uppercase mb-2">Step-by-step Solution:</span>
+                    <div class="text-base font-semibold text-slate-800 dark:text-slate-100">${q.optionB.question}</div>
+                    <div class="pt-4 border-t border-slate-100 dark:border-slate-800">
+                        <span class="inline-block text-[11px] font-black text-emerald-600 dark:text-emerald-400 uppercase tracking-wider mb-2">Step-by-step Solution:</span>
                         <div class="text-sm leading-relaxed text-slate-600 dark:text-slate-300 space-y-2">${q.optionB.solution}</div>
                     </div>
                 </div>
@@ -1222,9 +1698,9 @@ function handleSearch() {
                 mcqOptionsHtml = `
                     <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 my-4">
                         ${q.options.map((opt, idx) => `
-                            <div class="p-3 border border-slate-100 dark:border-navy-700 rounded-lg text-sm bg-slate-50 dark:bg-navy-900/40 flex items-center space-x-2">
-                                <span class="h-6 w-6 rounded-full bg-slate-200 dark:bg-navy-800 text-xs font-bold flex items-center justify-center">${String.fromCharCode(97 + idx)}</span>
-                                <span>${opt}</span>
+                            <div class="p-3 border border-slate-100 dark:border-slate-800 rounded-xl text-xs font-semibold bg-slate-50 dark:bg-slate-950 flex items-center space-x-2">
+                                <span class="h-6 w-6 rounded-full bg-slate-200 dark:bg-slate-800 text-xs font-black flex items-center justify-center shrink-0">${String.fromCharCode(97 + idx)}</span>
+                                <span class="text-slate-700 dark:text-slate-200">${opt}</span>
                             </div>
                         `).join('')}
                     </div>
@@ -1232,29 +1708,38 @@ function handleSearch() {
             }
 
             card.innerHTML = `
-                <div onclick="toggleAccordion('${q.id}')" class="p-5 flex items-center justify-between cursor-pointer hover:bg-slate-50/50 dark:hover:bg-navy-700/30 transition-colors">
+                <div onclick="toggleAccordion('${q.id}')" class="p-5 flex items-center justify-between cursor-pointer hover:bg-slate-50/50 dark:hover:bg-slate-850/20 transition-colors">
                     <div class="flex items-center space-x-4">
-                        <span class="h-8 w-8 bg-navy-500 text-white rounded-lg font-bold text-sm flex items-center justify-center">Q${q.number}</span>
+                        <span class="h-8 w-8 bg-blue-600 text-white rounded-xl font-bold text-xs flex items-center justify-center shrink-0">Q${q.number}</span>
                         <div>
-                            <h3 class="font-bold text-slate-800 dark:text-white text-sm line-clamp-1">${q.question.replace(/<[^>]*>/g, '').substring(0, 80)}...</h3>
-                            <span class="text-xs text-slate-400 uppercase tracking-wider">${q.marks} Mark${q.marks > 1 ? 's' : ''} • ${q.type === 'mcq' ? 'Multiple Choice' : q.type === 'ar' ? 'Assertion-Reason' : 'Subjective'} • ${secKey.toUpperCase().replace('-', ' ')}</span>
+                            <h3 class="font-extrabold text-slate-800 dark:text-white text-sm line-clamp-1">${q.question.replace(/<[^>]*>/g, '').substring(0, 80)}...</h3>
+                            <span class="text-[10px] font-bold text-slate-400 dark:text-slate-500 uppercase tracking-wider">${q.marks} Mark${q.marks > 1 ? 's' : ''} • ${q.type === 'mcq' ? 'Multiple Choice' : q.type === 'ar' ? 'Assertion-Reason' : 'Subjective'} • ${secKey.toUpperCase()}</span>
                         </div>
                     </div>
-                    <i id="chevron-${q.id}" class="fa-solid fa-chevron-down text-slate-400 dark:text-slate-500 transform transition-transform duration-200"></i>
+                    
+                    <div class="flex items-center space-x-4 ml-2" onclick="event.stopPropagation()">
+                        <button onclick="toggleMastered('${q.id}', event)" class="px-2.5 py-1 rounded-lg text-[10px] font-black transition-all flex items-center space-x-1.5 ${masterBtnClass} master-btn-${q.id}">
+                            <i class="${masterIcon} text-xs"></i> <span>${masterText}</span>
+                        </button>
+                        <button onclick="toggleBookmark('${q.id}', event)" class="p-1">
+                            <i class="${bmarkClass} bmark-btn-${q.id} text-base transition-colors"></i>
+                        </button>
+                        <i id="chevron-${q.id}" class="fa-solid fa-chevron-down text-slate-400 dark:text-slate-500 transform transition-transform duration-200"></i>
+                    </div>
                 </div>
                 
-                <div id="accordion-${q.id}" class="hidden p-5 border-t border-slate-100 dark:border-navy-700 bg-slate-50/20 dark:bg-navy-800/10 space-y-4">
-                    <div class="text-base font-semibold leading-relaxed">${q.question}</div>
+                <div id="accordion-${q.id}" class="hidden p-5 border-t border-slate-100 dark:border-slate-800 bg-slate-50/10 dark:bg-slate-900/10 space-y-4">
+                    <div class="text-base font-semibold text-slate-800 dark:text-slate-100">${q.question}</div>
                     ${mcqOptionsHtml}
-                    <div class="pt-4 border-t border-slate-100 dark:border-navy-700">
+                    <div class="pt-4 border-t border-slate-100 dark:border-slate-800">
                         ${(q.type === 'mcq' || q.type === 'ar') ? `
                             <div class="mb-3">
-                                <span class="px-2.5 py-1 bg-emerald-100 text-emerald-800 dark:bg-emerald-900/30 dark:text-emerald-200 rounded text-xs font-bold uppercase">
+                                <span class="px-2.5 py-1 bg-emerald-100 text-emerald-800 dark:bg-emerald-950/40 dark:text-emerald-300 rounded text-xs font-black uppercase tracking-wider">
                                     Correct Option: (${q.correctOption})
                                 </span>
                             </div>
                         ` : ''}
-                        <span class="inline-block text-xs font-bold text-emerald-600 dark:text-emerald-400 uppercase mb-2">Step-by-step Solution:</span>
+                        <span class="inline-block text-[11px] font-black text-emerald-600 dark:text-emerald-400 uppercase tracking-wider mb-2">Step-by-step Solution:</span>
                         <div class="text-sm leading-relaxed text-slate-600 dark:text-slate-300 space-y-2">${q.solution}</div>
                     </div>
                 </div>
@@ -1275,7 +1760,7 @@ function handleSearch() {
     }
 }
 
-// Sidebar Drawer Control (Mobile)
+// Sidebar Mobile drawer toggling
 function toggleSidebar() {
     const sidebar = document.getElementById('sidebar');
     sidebar.classList.toggle('-translate-x-full');
@@ -1288,7 +1773,7 @@ function closeSidebarOnMobile() {
     }
 }
 
-// Dark Mode Control
+// Dark/Light Theme toggling
 function toggleDarkMode() {
     darkTheme = !darkTheme;
     const docHTML = document.documentElement;
