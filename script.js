@@ -143,7 +143,7 @@ const DATASET = {
             ],
             correctOption: "a",
             correctIndex: 0,
-            solution: "The Arrhenius equation is $k = A \\cdot e^{-E_a / RT}$. Taking natural logarithm: $\\ln k = \\ln A - \\frac{E_a}{R}\\left(\\frac{1}{T}\\right)$. Comparing this to $y = mx + c$, where $y = \\ln k$ and $x = 1/T$, the slope ($m$) is equal to $-E_a / R$."
+            solution: "The Arrhenius equation is $k = A \\cdot e^{-E_a / RT}$. Taking natural logarithm: $\\ln k = \\ln A - \\frac{E_a}{R}\\left(\\frac{1}{T}\right)$. Comparing this to $y = mx + c$, where $y = \\ln k$ and $x = 1/T$, the slope ($m$) is equal to $-E_a / R$."
         },
         {
             id: "q10",
@@ -331,7 +331,7 @@ const DATASET = {
             number: 25,
             marks: 3,
             question: "State Kohlrausch's law of independent migration of ions. Write two applications of Kohlrausch's law in electrochemistry.",
-            solution: "<strong>Kohlrausch's Law Statement:</strong><br>The limiting molar conductivity of an electrolyte ($\\Lambda^\\circ_m$) is equal to the sum of the individual contributions of the limiting molar conductivities of its constituent cations and anions at infinite dilution:<br>$$\\Lambda^\\circ_m = x \\lambda^\\circ_+ + y \\lambda^\\circ_-$$<br>where $\\lambda^\\circ_+$ and $\\lambda^\\circ_-$ are the limiting conductivities of cation and anion, and $x$ and $y$ are their stoichiometric numbers.<br><br><strong>Two Applications:</strong><br>1. <strong>Calculating $\\Lambda^\\circ_m$ for weak electrolytes:</strong> We can calculate $\\Lambda^\\circ_m$ for weak electrolytes using strong electrolytes, e.g.:<br>$$\\Lambda^\\circ_m(\\text{CH}_3\\text{COOH}) = \\Lambda^\\circ_m(\\text{CH}_3\\text{COONa}) + \\Lambda^\\circ_m(\\text{HCl}) - \\Lambda^\\circ_m(\\text{NaCl})$$<br>2. <strong>Determining degree of dissociation ($\\alpha$):</strong><br>$$\\alpha = \\frac{\\Lambda_m}{\\Lambda^\\circ_m}$$"
+            solution: "<strong>Kohlrausch's Law Statement:</strong><br>The limiting molar conductivity of an electrolyte ($\\Lambda^\\circ_m$) is equal to the sum of the individual contributions of the limiting molar conductivities of its constituent anions and cations at infinite dilution:<br>$$\\Lambda^\\circ_m = x \\lambda^\\circ_+ + y \\lambda^\\circ_-$$<br>where $\\lambda^\\circ_+$ and $\\lambda^\\circ_-$ are the limiting conductivities of cation and anion, and $x$ and $y$ are their stoichiometric numbers.<br><br><strong>Two Applications:</strong><br>1. <strong>Calculating $\\Lambda^\\circ_m$ for weak electrolytes:</strong> We can calculate $\\Lambda^\\circ_m$ for weak electrolytes using strong electrolytes, e.g.:<br>$$\\Lambda^\\circ_m(\\text{CH}_3\\text{COOH}) = \\Lambda^\\circ_m(\\text{CH}_3\\text{COONa}) + \\Lambda^\\circ_m(\\text{HCl}) - \\Lambda^\\circ_m(\\text{NaCl})$$<br>2. <strong>Determining degree of dissociation ($\\alpha$):</strong><br>$$\\alpha = \\frac{\\Lambda_m}{\\Lambda^\\circ_m}$$"
         },
         {
             id: "q26",
@@ -355,7 +355,7 @@ const DATASET = {
             optionA: {
                 title: "Complete Equations",
                 question: "Complete the following chemical equations:<br><strong>(a) $\\text{CH}_3\\text{CH}_2\\text{CH}=\\text{CH}_2 + \\text{HBr} \\xrightarrow{\\text{in presence of peroxide}} \\dots$</strong><br><strong>(b) $\\text{C}_6\\text{H}_5\\text{OH} + \\text{Zn (dust)} \\xrightarrow{\\Delta} \\dots$</strong><br><strong>(c) $\\text{CH}_3\\text{CH}_2\\text{Br} + \\text{AgCN} \\rightarrow \\dots$</strong>",
-                solution: "<strong>(a) Hydrohalogenation with peroxide:</strong><br>Anti-Markovnikov addition of $\\text{HBr}$ yields 1-bromobutane:<br>$$\\text{CH}_3\\text{CH}_2\\text{CH}=\\text{CH}_2 + \\text{HBr} \\xrightarrow{\\text{peroxide}} \\text{CH}_3\\text{CH}_2\\text{CH}_2\\text{CH}_2\\text{Br}$$<br><br><strong>(b) Phenol reduction with Zinc dust:</strong><br>Phenol is reduced to Benzene on heating with Zinc:<br>$$\\text{C}_6\\text{H}_5\\text{OH} + \\text{Zn} \\xrightarrow{\\Delta} \\text{C}_6\\text{H}_6 + \\text{ZnO}$$<br><br><strong>(c) Reaction with Silver cyanide:</strong><br>Because $\\text{AgCN}$ is covalent, nucleophilic attack occurs through nitrogen, forming ethyl isocyanide:<br>$$\\text{CH}_3\\text{CH}_2\\text{Br} + \\text{AgCN} \\rightarrow \\text{CH}_3\\text{CH}_2\\text{NC} + \\text{AgBr}\\downarrow$$"
+                solution: "<strong>(a) Hydrohalogenation with peroxide:</strong><br>Anti-Markovnikov addition of $\\text{HBr}$ yields 1-bromobutane:<br>$$\\text{CH}_3\\text{CH}_2\\text{CH}=\\text{CH}_2 + \\text{HBr} \\xrightarrow{\\text{peroxide}} \\text{CH}_3\\text{CH}_2\\text{CH2}\\text{CH}_2\\text{Br}$$<br><br><strong>(b) Phenol reduction with Zinc dust:</strong><br>Phenol is reduced to Benzene on heating with Zinc:<br>$$\\text{C}_6\\text{H}_5\\text{OH} + \\text{Zn} \\xrightarrow{\\Delta} \\text{C}_6\\text{H}_6 + \\text{ZnO}$$<br><br><strong>(c) Reaction with Silver cyanide:</strong><br>Because $\\text{AgCN}$ is covalent, nucleophilic attack occurs through nitrogen, forming ethyl isocyanide:<br>$$\\text{CH}_3\\text{CH}_2\\text{Br} + \\text{AgCN} \\rightarrow \\text{CH}_3\\text{CH}_2\\text{NC} + \\text{AgBr}\\downarrow$$"
             },
             optionB: {
                 title: "OR: Conversions",
@@ -388,7 +388,7 @@ const DATASET = {
             isOrQuestion: true,
             optionA: {
                 title: "Osmotic Pressure",
-                question: "<strong>(a) Define Osmotic Pressure. Why is osmotic pressure measurement preferred over other colligative properties for determining the molar mass of macromolecules like proteins and polymers? (Give 3 reasons)</strong> [3]<br><br><strong>(b) Calculate the osmotic pressure of a solution prepared by dissolving $25\\text{ mg}$ of $\text{K}_2\text{SO}_4$ in $2\\text{ L}$ of water at $25\\ ^\circ\\text{C}$, assuming it to be completely dissociated. ($R = 0.0821\\text{ L atm K}^{-1}\text{ mol}^{-1}$, Molar mass of $\\text{K}_2\\text{SO}_4 = 174\\text{ g mol}^{-1}$ )</strong> [2]",
+                question: "<strong>(a) Define Osmotic Pressure. Why is osmotic pressure measurement preferred over other colligative properties for determining the molar mass of macromolecules like proteins and polymers? (Give 3 reasons)</strong> [3]<br><br><strong>(b) Calculate the osmotic pressure of a solution prepared by dissolving $25\\text{ mg}$ of $\text{K}_2\\text{SO}_4$ in $2\\text{ L}$ of water at $25\\ ^\circ\\text{C}$, assuming it to be completely dissociated. ($R = 0.0821\\text{ L atm K}^{-1}\text{ mol}^{-1}$, Molar mass of $\\text{K}_2\\text{SO}_4 = 174\\text{ g mol}^{-1}$ )</strong> [2]",
                 solution: "<strong>(a) Osmotic Pressure & Macromolecules:</strong><br><ul><li><strong>Definition:</strong> The excess hydrostatic pressure that must be applied to the solution side to completely prevent the osmotic flow of solvent through a semipermeable membrane.</li><li><strong>Preferences for Macromolecules:</strong><br>1. <strong>Easily Measurable Magnitude:</strong> Colligative properties like boiling point elevation are too small to measure precisely for macromolecules due to low concentrations. Osmotic pressure provides large, easily measurable values at room temperature.<br>2. <strong>Stability:</strong> Proteins denature and decompose at high temperatures, making boiling point measurements impossible. Osmotic pressure can be measured at room temperature ($25\\ ^\\circ\\text{C}$).<br>3. <strong>Molarity usage:</strong> Uses molarity, which is far simpler to prepare in labs than molality.</li></ul><br><strong>(b) Osmotic Pressure Calculation:</strong><br>Identify variables:<br><ul><li>Mass of solute ($w_2$) = $25\\text{ mg} = 0.025\\text{ g}$</li><li>Volume ($V$) = $2\\text{ L}$, Molar mass ($M_2$) = $174\\text{ g mol}^{-1}$</li><li>$T = 25\\ ^\\circ\\text{C} = 298\\text{ K}$</li><li>$R = 0.0821\\text{ L atm K}^{-1}\\text{ mol}^{-1}$</li><li>$\\text{K}_2\\text{SO}_4$ dissociates into 3 ions ($2\\text{K}^+ + \\text{SO}_4^{2-}$). Since it is completely dissociated, Van't Hoff factor $i = 3$.</li></ul><br>$$\\Pi = i \\cdot C \\cdot R \\cdot T = i \\cdot \\frac{w_2}{M_2 \\cdot V} \\cdot R \\cdot T$$<br>$$\\Pi = 3 \\times \\frac{0.025}{174 \\times 2} \\times 0.0821 \\times 298$$<br>$$\\Pi = \\frac{1.835}{348} \\approx 5.27 \\times 10^{-3}\\text{ atm}$$<br><br><strong>Answer:</strong> The osmotic pressure is <strong>$5.27 \\times 10^{-3}\\text{ atm}$</strong>."
             },
             optionB: {
@@ -426,7 +426,7 @@ const DATASET = {
             optionB: {
                 title: "OR: Collision Theory",
                 question: "<strong>(a) What is collision theory of chemical reactions? Mention two main reasons why all molecular collisions do not lead to product formation.</strong> [3]<br><br><strong>(b) The rate of a reaction quadruples when temperature changes from $293\text{ K}$ to $313\text{ K}$. Calculate the activation energy ($E_a$) of the reaction assuming that it does not change with temperature.</strong> [2]",
-                solution: "<strong>(a) Collision Theory:</strong><br><ul><li><strong>Core Concept:</strong> Reactions occur when reactant molecules collide. The rate depends on the collision frequency ($Z_{AB}$) and the fraction of effective collisions.</li><li><strong>Reasons for ineffective collisions:</strong><br>1. <strong>Energy Barrier:</strong> Molecules must collide with kinetic energy $\\ge$ threshold/activation energy ($E_a$). If kinetic energy is too low, they bounce apart without reacting.<br>2. <strong>Orientation Barrier:</strong> Reactants must collide with a specific spatial orientation to allow the correct atoms to form new bonds. Improper orientation results in ineffective collisions.</li></ul><br><strong>(b) Activation Energy Calculation ($k_2/k_1 = 4$, $T_1 = 293\\text{ K}$, $T_2 = 313\\text{ K}$):</strong><br>Using the Arrhenius relation:<br>$$\\log_{10}\\left(\\frac{k_2}{k_1}\\right) = \\frac{E_a}{2.303 \\cdot R} \\left[ \\frac{T_2 - T_1}{T_1 \\cdot T_2} \\right]$$<br>$$0.6021 = \\frac{E_a}{2.303 \times 8.314} \\left[ \\frac{313 - 293}{293 \times 313} \\right]$$<br>$$0.6021 = \\frac{E_a}{19.147} \\left[ \\frac{20}{91709} \\right]$$<br>$$E_a = \\frac{0.6021 \\times 19.147 \\times 91709}{20} \\approx 52863\\text{ J mol}^{-1} \\approx 52.86\\text{ kJ mol}^{-1}$$<br><br><strong>Answer:</strong> The activation energy is <strong>$52.86\\text{ kJ mol}^{-1}$</strong>."
+                solution: "<strong>(a) Collision Theory:</strong><br><ul><li><strong>Core Concept:</strong> Reactions occur when reactant molecules collide. The rate depends on the collision frequency ($Z_{AB}$) and the fraction of effective collisions.</li><li><strong>Reasons for ineffective collisions:</strong><br>1. <strong>Energy Barrier:</strong> Molecules must collide with kinetic energy $\\ge$ threshold/activation energy ($E_a$). If kinetic energy is too low, they bounce apart without reacting.<br>2. <strong>Orientation Barrier:</strong> Reactants must collide with a specific spatial orientation to allow the correct atoms to form new bonds. Improper orientation results in ineffective collisions.</li></ul><br><strong>(b) Activation Energy Calculation ($k_2/k_1 = 4$, $T_1 = 293\\text{ K}$, $T_2 = 313\\text{ K}$):</strong><br>Using the Arrhenius relation:<br>$$\\log_{10}\\left(\\frac{k_2}{k_1}\\right) = \\frac{E_a}{2.303 \\cdot R} \\left[ \\frac{T_2 - T_1}{T_1 \\cdot T_2} \\right]$$<br>$$0.6021 = \\frac{E_a}{2.303 \\times 8.314} \\left[ \\frac{313 - 293}{293 \\times 313} \\right]$$<br>$$0.6021 = \\frac{E_a}{19.147} \\left[ \\frac{20}{91709} \\right]$$<br>$$E_a = \\frac{0.6021 \\times 19.147 \\times 91709}{20} \\approx 52863\\text{ J mol}^{-1} \\approx 52.86\\text{ kJ mol}^{-1}$$<br><br><strong>Answer:</strong> The activation energy is <strong>$52.86\\text{ kJ mol}^{-1}$</strong>."
             }
         },
         {
@@ -504,14 +504,13 @@ function toggleBookmark(id, event) {
     localStorage.setItem('chem_bookmarks', JSON.stringify(bookmarks));
     updateBookmarkBadge();
     
-    // Rerender icons
+    // Rerender icons beautifully and safely
     const icons = document.querySelectorAll(`.bmark-btn-${id}`);
     icons.forEach(icon => {
-        if (bookmarks.includes(id)) {
-            icon.className = `fa-solid fa-star text-yellow-500 bmark-btn-${id}`;
-        } else {
-            icon.className = `fa-regular fa-star text-slate-400 dark:text-slate-500 hover:text-yellow-500 bmark-btn-${id}`;
-        }
+        const bmarkClass = bookmarks.includes(id) 
+            ? 'fa-solid fa-star text-yellow-500' 
+            : 'fa-regular fa-star text-slate-400 dark:text-slate-500 hover:text-yellow-500';
+        icon.className = `${bmarkClass} bmark-btn-${id} text-base transition-colors`;
     });
 }
 
@@ -592,7 +591,6 @@ function renderContent() {
 
 // 1. Dashboard View
 function renderDashboard(container) {
-    // Total questions calculation
     let totalQuestions = 0;
     Object.keys(DATASET).forEach(key => {
         totalQuestions += DATASET[key].length;
@@ -646,7 +644,7 @@ function renderDashboard(container) {
                     <span class="text-3xl font-black text-blue-700 dark:text-blue-300 block">${progressPercent}%</span>
                     <span class="text-[10px] font-bold uppercase tracking-wider text-blue-600 dark:text-blue-400 block">Current Preparation Index</span>
                     <span class="text-[11px] text-slate-500 dark:text-slate-400 block font-medium">
-                        ${progressPercent >= 80 ? 'Excellent! Ready for the exam.' : progressPercent >= 50 ? 'Great progress. Keep solving!' : 'Select a section to start studying.'}
+                        ${progressPercent >= 80 ? 'Excellent! Ready for the exam.' : progressPercent >= 50 ? 'Great progress. Keep studying!' : 'Select a section to start studying.'}
                     </span>
                 </div>
             </div>
@@ -700,7 +698,7 @@ function renderDashboard(container) {
                         <li><i class="fa-solid fa-arrow-right text-[10px] text-emerald-500 mr-2"></i> First-order Kinetics & Half-life</li>
                         <li><i class="fa-solid fa-arrow-right text-[10px] text-emerald-500 mr-2"></i> Nernst Electrochemical Potential</li>
                         <li><i class="fa-solid fa-arrow-right text-[10px] text-emerald-500 mr-2"></i> Boiling & Freezing Solute Molar Mass</li>
-                        <li><i class="fa-solid fa-arrow-right text-[10px] text-emerald-500 mr-2"></i> Arrhenius Activation Energy ($E_a$)</li>
+                        <li><i class="fa-solid fa-arrow-right text-[10px] text-emerald-500 mr-2"></i> Activation Energy ($E_a$)</li>
                     </ul>
                     <button onclick="switchTab('calculators')" class="w-full py-2 bg-emerald-50 hover:bg-emerald-100 text-emerald-700 dark:bg-emerald-950/20 dark:hover:bg-emerald-950/30 dark:text-emerald-300 rounded-xl text-xs font-bold transition-all">
                         Launch Solvers
@@ -880,47 +878,13 @@ function renderSectionQuestions(container, tabId) {
     });
 }
 
-// Collapsible accordion logic
-function toggleAccordion(id) {
-    const acc = document.getElementById(`accordion-${id}`);
-    const chevron = document.getElementById(`chevron-${id}`);
-    if (acc) {
-        acc.classList.toggle('hidden');
-        if (acc.classList.contains('hidden')) {
-            chevron.style.transform = 'rotate(0deg)';
-        } else {
-            chevron.style.transform = 'rotate(180deg)';
-        }
-    }
-}
-
-// Choice question logic
-function toggleOrTab(id, choice) {
-    const btnA = document.getElementById(`btn-${id}-A`);
-    const btnB = document.getElementById(`btn-${id}-B`);
-    const contentA = document.getElementById(`content-${id}-A`);
-    const contentB = document.getElementById(`content-${id}-B`);
-    
-    if (choice === 'A') {
-        btnA.className = "flex-1 py-2.5 text-xs font-bold text-center border-b-2 border-blue-600 text-blue-600 dark:text-white dark:border-slate-400";
-        btnB.className = "flex-1 py-2.5 text-xs font-bold text-center border-b-2 border-transparent text-slate-400 hover:text-slate-600 dark:hover:text-slate-200";
-        contentA.classList.remove('hidden');
-        contentB.classList.add('hidden');
-    } else {
-        btnB.className = "flex-1 py-2.5 text-xs font-bold text-center border-b-2 border-blue-600 text-blue-600 dark:text-white dark:border-slate-400";
-        btnA.className = "flex-1 py-2.5 text-xs font-bold text-center border-b-2 border-transparent text-slate-400 hover:text-slate-600 dark:hover:text-slate-200";
-        contentB.classList.remove('hidden');
-        contentA.classList.add('hidden');
-    }
-}
-
 // 3. Render Bookmarked Questions View
 function renderBookmarks(container) {
     container.innerHTML = `
         <div class="space-y-6">
             <div class="border-b border-slate-200 dark:border-slate-800 pb-4">
                 <h2 class="text-2xl font-extrabold text-blue-900 dark:text-white leading-tight">My Bookmarked Questions</h2>
-                <p class="text-xs text-slate-400 dark:text-slate-500 mt-1 font-medium">Review and practice questions that you have bookmarked during your sessions.</p>
+                <p class="text-xs text-slate-400 dark:text-slate-500 mt-1 font-medium font-medium">Review and practice questions that you have bookmarked during your sessions.</p>
             </div>
             <div id="bookmarks-container"></div>
         </div>
@@ -930,7 +894,7 @@ function renderBookmarks(container) {
     if (bookmarks.length === 0) {
         bmarkListContainer.innerHTML = `
             <div class="p-12 text-center text-slate-400 dark:text-slate-500 space-y-3 bg-white dark:bg-slate-900 border border-dashed border-slate-200 dark:border-slate-800 rounded-2xl">
-                <i class="fa-regular fa-star text-5xl text-slate-300"></i>
+                <i class="fa-regular fa-star text-5xl text-slate-300 animate-pulse"></i>
                 <p class="text-sm font-bold">No Bookmarked Questions</p>
                 <p class="text-xs max-w-xs mx-auto">Click the star icon at the top right of any question card to save it here for quick review!</p>
             </div>
@@ -1037,7 +1001,7 @@ function renderBookmarks(container) {
                 </div>
                 
                 <div id="accordion-${q.id}" class="hidden p-5 border-t border-slate-100 dark:border-slate-800 bg-slate-50/10 dark:bg-slate-900/10 space-y-4">
-                    <div class="text-base font-semibold leading-relaxed text-slate-800 dark:text-slate-100">${q.question}</div>
+                    <div class="text-base font-semibold text-slate-800 dark:text-slate-100">${q.question}</div>
                     ${mcqOptionsHtml}
                     <div class="pt-4 border-t border-slate-100 dark:border-slate-800">
                         ${(q.type === 'mcq' || q.type === 'ar') ? `
@@ -1063,13 +1027,13 @@ function renderPeriodicTable(container) {
         <div class="space-y-6">
             <div class="border-b border-slate-200 dark:border-slate-800 pb-4">
                 <h2 class="text-2xl font-extrabold text-blue-900 dark:text-white leading-tight">Class XII Syllabus Periodic Table Widget</h2>
-                <p class="text-xs text-slate-400 dark:text-slate-500 mt-1 font-medium">Click on any high-frequency syllabus element below to inspect electronegativity, config, and chapter relevance!</p>
+                <p class="text-xs text-slate-400 dark:text-slate-500 mt-1 font-medium">Click on any high-frequency syllabus element below to inspect electronegativity, configuration, and chapter relevance!</p>
             </div>
             
             <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
                 <!-- Grid of Elements -->
                 <div class="lg:col-span-2 bg-white dark:bg-slate-900 border border-slate-200/80 dark:border-slate-800 rounded-2xl p-6 shadow-sm">
-                    <div class="grid grid-cols-5 sm:grid-cols-6 gap-3">
+                    <div class="grid grid-cols-4 sm:grid-cols-6 gap-3">
                         ${PERIODIC_DATA.map(el => `
                             <div onclick="selectElement(${el.num})" id="el-card-${el.num}" class="element-card border border-slate-200/80 dark:border-slate-800 p-3 rounded-xl text-center cursor-pointer transition-all hover:shadow-md hover:border-blue-500 bg-slate-50 dark:bg-slate-950 relative overflow-hidden group">
                                 <span class="absolute top-1 left-1.5 text-[9px] font-extrabold text-slate-400">${el.num}</span>
@@ -1184,7 +1148,7 @@ function renderQuiz(container) {
                             <!-- Options -->
                             <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
                                 ${q.options.map((opt, optIdx) => `
-                                    <button onclick="answerQuiz('${q.id}', ${optIdx}, ${q.correctIndex})" id="opt-${q.id}-${optIdx}" class="quiz-btn-option text-left p-3.5 rounded-xl border border-slate-100 dark:border-slate-800 hover:bg-slate-50 dark:hover:bg-slate-950 text-xs font-semibold flex items-center space-x-3 transition-all">
+                                    <button onclick="answerQuiz('${q.id}', ${optIdx}, ${q.correctIndex})" id="opt-${q.id}-${optIdx}" class="quiz-btn-option text-left p-3.5 rounded-xl border border-slate-100 dark:border-slate-800 hover:bg-slate-50 dark:hover:bg-slate-950 text-xs font-semibold flex items-center space-x-3 transition-all w-full">
                                         <span class="h-6 w-6 rounded-full bg-slate-200 dark:bg-slate-800 text-xs font-black flex items-center justify-center shrink-0">${String.fromCharCode(65 + optIdx)}</span>
                                         <span>${opt}</span>
                                     </button>
@@ -1241,19 +1205,23 @@ function answerQuiz(qId, selectedIdx, correctIdx) {
     const btns = document.querySelectorAll(`[id^="opt-${qId}-"]`);
     btns.forEach((btn, idx) => {
         if (idx === correctIdx) {
-            btn.className = "text-left p-3.5 rounded-xl border text-xs font-bold flex items-center space-x-3 transition-all bg-emerald-100 border-emerald-500 text-emerald-800 dark:bg-emerald-950/20 dark:text-emerald-300";
+            btn.className = "text-left p-3.5 rounded-xl border text-xs font-bold flex items-center space-x-3 transition-all bg-emerald-100 border-emerald-500 text-emerald-800 dark:bg-emerald-950/20 dark:text-emerald-300 w-full";
         } else if (idx === selectedIdx) {
-            btn.className = "text-left p-3.5 rounded-xl border text-xs font-bold flex items-center space-x-3 transition-all bg-red-100 border-red-500 text-red-800 dark:bg-red-950/20 dark:text-red-300";
+            btn.className = "text-left p-3.5 rounded-xl border text-xs font-bold flex items-center space-x-3 transition-all bg-red-100 border-red-500 text-red-800 dark:bg-red-950/20 dark:text-red-300 w-full";
+        } else {
+            btn.className = "text-left p-3.5 rounded-xl border text-xs font-semibold flex items-center space-x-3 transition-all opacity-40 border-slate-100 dark:border-slate-800 text-slate-400 dark:text-slate-600 w-full";
         }
         btn.disabled = true;
     });
     
     // Expand solution explanation
-    const sol = document.getElementById(`solution-quiz-${qId}`);
-    if (sol) {
-        sol.classList.remove('hidden');
+    const sol = document.getElementById:/// This should just resolve correctly
+    `solution-quiz-${qId}`;
+    const targetSol = document.getElementById(`solution-quiz-${qId}`);
+    if (targetSol) {
+        targetSol.classList.remove('hidden');
         if (window.renderMathInElement) {
-            renderMathInElement(sol, {
+            renderMathInElement(targetSol, {
                 delimiters: [
                     {left: '$$', right: '$$', display: true},
                     {left: '$', right: '$', display: false}
@@ -1398,7 +1366,7 @@ function renderCalculators(container) {
                     </div>
                 </div>
 
-                <!-- NEW 4. Colligative Freezing point depression solver -->
+                <!-- 4. Colligative Freezing point depression solver -->
                 <div class="bg-white dark:bg-slate-900 border border-slate-200/80 dark:border-slate-800 rounded-2xl p-5 shadow-sm space-y-4">
                     <h3 class="font-bold text-slate-800 dark:text-white flex items-center"><i class="fa-solid fa-temperature-arrow-down mr-2 text-cyan-500"></i> Freezing Point Depression Solver</h3>
                     <p class="text-[10px] text-slate-400 dark:text-slate-500">Formula: $M_2 = \\frac{K_f \\cdot w_2 \\cdot 1000}{\\Delta T_f \\cdot w_1}$</p>
